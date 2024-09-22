@@ -4,8 +4,8 @@ function Nav() {
   return (
     <nav className="nav">
       <div className="logo">
-        <h1>Logo</h1>
-        <p>Web developer</p>
+        <h2>Sebastian</h2>
+        <p> Web developer</p>
       </div>
       <div className="menu">
         <ul>
@@ -19,7 +19,7 @@ function Nav() {
             <a href="#about">About</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>

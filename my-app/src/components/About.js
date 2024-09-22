@@ -7,7 +7,7 @@ function About() {
   return (
     <div>
       <div className="about" id="about">
-        <h2>About</h2>
+        <h2 className="about-title">About</h2>
         <p className="about-header">
           I'm a <b>developer</b> and a <b>designer</b> who has been studying web
           development at NTNU Gjøvik for the last 3 years.
