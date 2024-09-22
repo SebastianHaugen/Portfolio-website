@@ -18,3 +18,10 @@ h3 {
     color: #EE6352;
 }
 
+@media (max-width: 768px) {
+    body {
+        font-size: 1.8rem;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}

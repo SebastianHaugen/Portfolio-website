@@ -7,8 +7,8 @@ function Contact() {
     <div className="contact-container" id="contact">
       <h2>Contact</h2>
       <p>Feel free to contact me at:</p>
-      <p> E-mail: 
-        <a href="mailto:sebastian@haug1.net"> sebastian@haug1.net</a>
+      <p>E-mail: 
+        <a href="mailto:sebastian@haug1.net">sebastian@haug1.net</a>
       </p>
       <div className="contact-links">
         <a href="https://github.com/SebastianHaugen" target="blank">

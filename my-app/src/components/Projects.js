@@ -31,7 +31,7 @@ function Projects() {
           <img src={travel} alt="project 2" />
         </div>
         <div className="project-text">
-          <h3>Travel website focus with focus on Accessibility</h3>
+          <h3>Travel website with focus on Accessibility</h3>
           <p>
             This project is a fully accessible, travel-themed website developed
             as part of the IDG2012 course. The primary goal was to create a

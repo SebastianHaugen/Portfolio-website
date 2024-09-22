@@ -36,3 +36,18 @@
 .intro-header {
     color: #EE6352;
 }
+
+@media (max-width: 768px) {
+    .intro-art {
+        display: none;
+
+    }
+
+    .intro {
+        grid-template-columns: 1fr;
+    }
+
+    .intro-text p {
+        font-size: 2rem;
+    }
+}

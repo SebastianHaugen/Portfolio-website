@@ -1,13 +1,25 @@
+import React, { useState } from "react";
 import "./styles/nav.css";
 
 function Nav() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <nav className="nav">
       <div className="logo">
-        <h2>Sebastian</h2>
-        <p> Web developer</p>
+        <h1>Sebastian</h1>
+        <p>Web developer</p>
       </div>
-      <div className="menu">
+      <div className={`hamburger ${isOpen ? "open" : ""}`} onClick={toggleMenu}>
+        <div className="bar"></div>
+        <div className="bar"></div>
+        <div className="bar"></div>
+      </div>
+      <div className={`menu ${isOpen ? "open" : ""}`}>
         <ul>
           <li>
             <a href="#top">Home</a>
