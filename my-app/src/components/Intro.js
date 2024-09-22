@@ -1,6 +1,6 @@
 import React from "react";
-import "./styles/intro.css";
 import geometricShape from "../assets/img/geometric-shape.png";
+import "./styles/intro.css";
 
 function Intro() {
   const introText =
@@ -10,7 +10,7 @@ function Intro() {
   const textSegments = introText.split(/([,.])/);
 
   return (
-    <div className="intro">
+    <div className="intro" id="top">
       <div className="intro-text">
         <h1 className="intro-header">Hello!</h1>
         <p>
