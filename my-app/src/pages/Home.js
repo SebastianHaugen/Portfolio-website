@@ -4,7 +4,6 @@ import Intro from "../components/Intro";
 import Projects from "../components/Projects";
 import About from "../components/About";
 import Contact from "../components/Contact";
-import "./styles/home.css";
 
 function Home() {
   return (

@@ -23,7 +23,7 @@ function Intro() {
         </p>
       </div>
       <div className="intro-art">
-        <img src={geometricShape} alt="Geometric shape art" />
+        <img src={geometricShape} alt="Geometric shape art with lines and arrows" />
       </div>
     </div>
   );

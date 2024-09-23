@@ -1,12 +1,12 @@
 import "./styles/projects.css";
-import fullstack from "../assets/img/full-stack-application.png";
-import travel from "../assets/img/travel.png";
-import tryggtur from "../assets/img/trygg-tur.png";
+import fullstack from "../assets/img/webp/full-stack-application-min.webp";
+import travel from "../assets/img/webp/travel-min.webp";
+import tryggtur from "../assets/img/webp/trygg-tur-min.webp";
 
 function Projects() {
   return (
     <div className="projects-container" id="projects">
-      <h2>Projects</h2>
+      <h2>Prosjekter</h2>
       <div className="project project1">
         <div className="project-content">
           <img src={fullstack} alt="project 1" />

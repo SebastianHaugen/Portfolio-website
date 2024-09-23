@@ -1,6 +1,6 @@
-import gaustatoppen from "../assets/img/gaustatoppen.jpg";
-import prague from "../assets/img/prague.jpg";
-import prague2 from "../assets/img/prague2.jpg";
+import gaustatoppen from "../assets/img/webp/gaustatoppen-min.webp";
+import prague from "../assets/img/webp/prague-min.webp";
+import prague2 from "../assets/img/webp/prague2-min.webp";
 import "./styles/about.css";
 
 function About() {
@@ -21,9 +21,9 @@ function About() {
           steder og kulturer. Jeg liker å ta bilder av stedene jeg besøker.
         </p>
         <div className="image-collage">
-          <img src={gaustatoppen} alt="Gaustatoppen" />
-          <img src={prague} alt="Image 2" />
-          <img src={prague2} alt="Image 3" />
+          <img src={gaustatoppen} alt="Toppen av Gaustatoppen, Norge" />
+          <img src={prague} alt="Praha Kirke Basilica of St. Ludmila" />
+          <img src={prague2} alt="Praha filmet fra avstand" />
         </div>
       </div>
     </div>
