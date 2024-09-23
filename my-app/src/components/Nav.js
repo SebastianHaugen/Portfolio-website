@@ -16,21 +16,21 @@ function Nav() {
       </div>
       <div className="logo">
         <h1>Sebastian</h1>
-        <p>Web developer</p>
+        <p>Webutvikler</p>
       </div>
       <div className={`menu ${isOpen ? "open" : ""}`}>
         <ul>
           <li>
-            <a href="#top" onClick={handleMenuItemClick}>Home</a>
+            <a href="#top" onClick={handleMenuItemClick}>Hjem</a>
           </li>
           <li>
-            <a href="#projects" onClick={handleMenuItemClick}>Projects</a>
+            <a href="#projects" onClick={handleMenuItemClick}>Prosjekter</a>
           </li>
           <li>
-            <a href="#about" onClick={handleMenuItemClick}>About</a>
+            <a href="#about" onClick={handleMenuItemClick}>Om</a>
           </li>
           <li>
-            <a href="#contact" onClick={handleMenuItemClick}>Contact</a>
+            <a href="#contact" onClick={handleMenuItemClick}>Kontakt</a>
           </li>
         </ul>
       </div>

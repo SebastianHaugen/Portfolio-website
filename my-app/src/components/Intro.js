@@ -4,7 +4,7 @@ import "./styles/intro.css";
 
 function Intro() {
   const introText =
-    "I'm Sebastian, a web developer passionate about creating modern, sustainable and accessible websites. I enjoy working with JavaScript React SQL and Python.";
+    "Jeg er Sebastian, en webutvikler som er opptatt av å lage moderne bærekraftige og tilgjengelige nettsteder. Jeg liker å jobbe med JavaScript React SQL og Python.";
 
   // Split the text by commas and periods
   const textSegments = introText.split(/([,.])/);
@@ -12,7 +12,7 @@ function Intro() {
   return (
     <div className="intro" id="top">
       <div className="intro-text">
-        <h1 className="intro-header">Hello!</h1>
+        <h1 className="intro-header">Hei!</h1>
         <p>
           {textSegments.map((segment, index) => (
             <React.Fragment key={index}>

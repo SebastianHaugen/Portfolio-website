@@ -14,14 +14,14 @@ function Projects() {
         <div className="project-text">
           <h3>The SUPER Assessor</h3>
           <p>
-            For the IDG2100 course, I worked with 2 students to develop the
-            SUPER Assessor website a full stack web application. The app allows
-            educators to create and rate assessment schemes through a card-based
-            game. Teachers can play solo or in teams, generate PDFs of their
-            schemes, and manage their own profiles and game sessions. We
-            developed a modern web application using the MERN stack, showcasing
-            skills like designing a REST API, documentation, and implementing
-            security features for login using tokens.
+            For IDG2100-kurset jobbet jeg sammen med 2 studenter for å utvikle
+            SUPER Assessor-nettstedet, en fullstack webapplikasjon. Appen lar
+            lærere lage og vurdere vurderingsskjemaer gjennom et kortbasert
+            spill. Lærere kan spille alene eller i team, generere PDF-er av
+            skjemaene sine, og administrere sine egne profiler og spilløkter. Vi
+            utviklet en moderne webapplikasjon ved hjelp av MERN-stacken, og
+            viste ferdigheter som å designe en REST API, dokumentasjon, og
+            implementere sikkerhetsfunksjoner for innlogging ved bruk av tokens.
           </p>
         </div>
       </div>
@@ -31,24 +31,19 @@ function Projects() {
           <img src={travel} alt="project 2" />
         </div>
         <div className="project-text">
-          <h3>Travel website with focus on Accessibility</h3>
+          <h3>Reise nettside med fokus på tilgjengelighet</h3>
           <p>
-            This project is a fully accessible, travel-themed website developed
-            as part of the IDG2012 course. The primary goal was to create a
-            user-friendly platform for young adultsthat adheres to the Web
-            Content Accessibility Guidelines. The design focuses on inclusivity,
-            ensuring that users with varying disabilities can easily navigate
-            and interact with the content. ARIA Landmarks and roles were added
-            where necessary to provide additional context for assistive
-            technologies, ensuring that dynamic elements like interactive forms
-            are accessible. The entire website can be navigated using only a
-            keyboard, making it accessible to users with motor impairments.
-            Focus styles are clearly visible to ensure users can always identify
-            where they are on the page. The website was designed with
-            high-contrast color schemes and resizable text, providing
-            readability for users with visual impairments. All elements are
-            responsive to zoom and screen resizing without loss of
-            functionality.
+            Dette prosjektet er et fullt tilgjengelig, reisetema-nettsted
+            utviklet som en del av IDG2012-kurset. Hovedmålet var å lage en
+            brukervennlig plattform for unge voksne som følger retningslinjene
+            for tilgjengelig webinnhold (WCAG). Designet fokuserer på
+            inkludering, og sikrer at brukere med ulike funksjonshemninger
+            enkelt kan navigere og samhandle med innholdet. ARIA-landemerker og
+            roller ble lagt til der det var nødvendig for å gi ekstra kontekst
+            for hjelpemiddelteknologier og sikre at dynamiske elementer som
+            interaktive skjemaer er tilgjengelige. Hele nettstedet kan navigeres
+            ved hjelp av kun tastatur, noe som gjør det tilgjengelig for brukere
+            med motoriske funksjonshemninger. 
           </p>
         </div>
       </div>
@@ -60,17 +55,16 @@ function Projects() {
         <div className="project-text">
           <h3>TryggTur for Gjøvik kommune</h3>
           <p>
-            A service designed to inform and request winter sidewalk
-            maintenance. Users can subscribe to notifications when sidewalks
-            will be gritted or cleared, and they can also send requests for
-            these services in their own neighborhood or other areas they deem
-            unsafe. The goal is to make walking and cycling in the city safer
-            during the winter. The website also includes a section promoting
-            safer driving habits to protect pedestrians and cyclists. The app
-            aims to better the communication between users and the municipality,
-            allowing for more efficient maintenance, while encouraging more
-            people to walk or cycle during winter knowing that sidewalks are
-            safe.
+            En tjeneste designet for å informere og be om vintervedlikehold av
+            fortau. Brukere kan abonnere på varsler når fortau vil bli strødd
+            eller ryddet, og de kan også sende forespørsler om disse tjenestene
+            i sitt eget nabolag eller andre områder de anser som utrygge. Målet
+            er å gjøre det tryggere å gå og sykle i byen om vinteren. Nettstedet
+            inkluderer også en seksjon som fremmer tryggere kjørevaner for å
+            beskytte fotgjengere og syklister. Appen har som mål å forbedre
+            kommunikasjonen mellom brukere og kommunen, slik at vedlikeholdet
+            blir mer effektivt, samtidig som den oppmuntrer flere til å gå eller
+            sykle om vinteren, vel vitende om at fortauene er trygge.
           </p>
         </div>
       </div>

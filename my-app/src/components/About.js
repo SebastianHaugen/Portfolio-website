@@ -7,15 +7,18 @@ function About() {
   return (
     <div>
       <div className="about" id="about">
-        <h2 className="about-title">About</h2>
+        <h2 className="about-title">Om</h2>
         <p className="about-header">
-          I'm a <b>developer</b> and a <b>designer</b> who has been studying web
-          development at NTNU Gjøvik for the last 3 years.
+          Jeg er en <b>utvikler</b> og en <b>designer</b> som har studert
+          webutvikling ved NTNU Gjøvik de siste 3 årene.
         </p>
         <p>
-          I'm from Slemmestad in Asker Norway. When i'm not coding i enjoy going
-          for hikes, being around nature or going to the gym. I love to travel
-          and take pictures.
+          Jeg er fra Slemmestad i Asker Norge. Jeg har alltid hatt en lidenskap
+          for teknologi og koding. Når jeg ikke sitter foran skjermen, finner du
+          meg ofte ute på tur i skogen, hvor jeg nyter naturen og det friske
+          utelivet. Å holde meg aktiv er viktig for meg, så jeg liker å
+          bruke tid på treningssenter. I tillegg er jeg glad i å reise og det å oppleve nye
+          steder og kulturer. Jeg liker å ta bilder av stedene jeg besøker.
         </p>
         <div className="image-collage">
           <img src={gaustatoppen} alt="Gaustatoppen" />
