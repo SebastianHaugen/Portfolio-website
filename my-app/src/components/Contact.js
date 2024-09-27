@@ -7,7 +7,7 @@ function Contact() {
     <div className="contact-container" id="contact">
       <h2>Kontakt</h2>
       <p>Du kan kontakte meg på:</p>
-      <p>E-mail: 
+      <p>e-post: 
         <a href="mailto:sebastian@haug1.net">sebastian@haug1.net</a>
       </p>
       <div className="contact-links">
