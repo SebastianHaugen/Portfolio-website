@@ -1,5 +1,5 @@
 import React from "react";
-import geometricShape from "../assets/img/geometric-shape.png";
+import sebastian from "../assets/img/SebastianHaugen.jpg";
 import "./styles/intro.css";
 
 function Intro() {
@@ -13,10 +13,10 @@ function Intro() {
           med JavaScript, React, SQL og Python.
         </p>
       </div>
-      <div className="intro-art">
+      <div className="intro-picture">
         <img
-          src={geometricShape}
-          alt="Geometric shape art with lines and arrows"
+          src={sebastian}
+          alt="Me, Sebastian Haugen"
         />
       </div>
     </div>

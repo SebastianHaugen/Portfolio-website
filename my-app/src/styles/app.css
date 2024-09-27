@@ -16,7 +16,7 @@ body {
 
 h2,
 h3 {
-    color: #EE6352;
+    color: 	#D2042D;
 }
 
 @media (max-width: 768px) {
@@ -26,9 +26,13 @@ h3 {
         padding-right: 5px;
     }
 
-    h2,
-    h3 {
+    h2{
         font-size: 1.8rem;
+        font-weight: 800;
+    }
+
+    h3 {
+        font-size: 1.6rem;
     }
 
     p {
