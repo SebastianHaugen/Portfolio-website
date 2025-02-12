@@ -4,6 +4,7 @@ import Intro from "../components/Intro";
 import Projects from "../components/Projects";
 import About from "../components/About";
 import Contact from "../components/Contact";
+import FloatingLanguageSwitcher from "../components/FloatingLanguageSwitcher";
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <Projects />
       <About />
       <Contact />
+      <FloatingLanguageSwitcher />
     </div>
   );
 }

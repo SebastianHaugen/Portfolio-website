@@ -7,8 +7,8 @@ i18n
   .use(initReactI18next)
   .init({
     resources: {
-      en: { translation: require("./locales/en.json") },
       no: { translation: require("./locales/no.json") },
+      en: { translation: require("./locales/en.json") },
     },
     fallbackLng: "no", // Norwegian will be the default language
     detection: {
