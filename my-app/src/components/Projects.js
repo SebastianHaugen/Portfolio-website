@@ -26,7 +26,7 @@ function Projects() {
             frontend med React og implementere sikkerhetsfunksjoner for
             innlogging med tokens. I dette prosjektet lærte vi å jobbe med alle
             deler av et prosjekt, både frontend og backend, for å bygge en
-            skalerbar og sikker applikasjon..
+            skalerbar og sikker applikasjon.
           </p>
         </div>
       </div>
