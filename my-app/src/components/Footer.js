@@ -1,6 +1,6 @@
 import React from "react";
-import github from "../assets/img/GitHub_Logo.png";
-import linkedin from "../assets/img/LI-Logo.png";
+import github from "../assets/img/github-mark.png";
+import linkedin from "../assets/img/linkedin-circle.png";
 import "./styles/footer.css";
 
 function Footer() {
@@ -20,4 +20,3 @@ function Footer() {
 }
 
 export default Footer;
-

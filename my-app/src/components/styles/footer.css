@@ -2,17 +2,16 @@
   background-color: #232b32;
   color: white;
   text-align: center;
-  height: 100px;
   padding: 20px 0;
   margin: 0;
 }
 
 .footer-icon {
-    width: 100px;
+    background-color: white;
+    width: 75px;
     margin: 0 10px;
     padding: 10px;
-    background-color: white;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 .footer-links {
@@ -29,7 +28,6 @@
 }
 
 .footer-links img {
-  max-width: 150px;
   height: auto;
   transition: transform 0.3s ease, filter 0.3s ease;
 }
