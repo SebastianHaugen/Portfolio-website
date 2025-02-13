@@ -30,7 +30,7 @@ const FloatingLanguageSwitcher = () => {
         style={{
           padding: "10px",
           border: "none",
-          backgroundColor: "#1E2A47",
+          backgroundColor: "#232b32",
           color: "white",
           cursor: "pointer",
           borderRadius: "50%",
