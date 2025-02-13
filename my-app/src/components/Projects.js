@@ -5,6 +5,7 @@ import tryggtur from "../assets/img/webp/trygg-tur-min.webp";
 import { useTranslation } from "react-i18next";
 
 function Projects() {
+  // The useTranslation hook returns a t function that we can use to translate text.
   const { t } = useTranslation();
 
   return (

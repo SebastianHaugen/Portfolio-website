@@ -4,9 +4,11 @@ import { useTranslation } from "react-i18next";
 import { NO, US } from "country-flag-icons/react/3x2"; // Import the flags
 
 const FloatingLanguageSwitcher = () => {
+  // Get the i18n instance from the hook
   const { i18n } = useTranslation();
   const [language, setLanguage] = useState(i18n.language);
 
+  // Change between Norwegian and English
   const toggleLanguage = () => {
     const newLanguage = language === "en" ? "no" : "en";
     setLanguage(newLanguage);
