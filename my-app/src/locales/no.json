@@ -28,5 +28,17 @@
             "title": "TryggTur for Gjøvik kommune",
             "description": "For emnet design i helsetjenester utviklet jeg og 2 andre studenter en tjeneste designet for å informere om og be om måking av fortau. Brukere kan abonnere på varsler når fortau blir strødd eller måket for snø, og de kan også sende forespørsler om disse tjenestene i sitt eget nabolag eller andre steder i byen. Målet med tjenesten er å gjøre det tryggere å gå og sykle i byen om vinteren. Nettsiden inkluderer også en seksjon som fremmer tryggere kjørevaner for å beskytte fotgjengere og syklister. Appen har som mål å forbedre kommunikasjonen mellom innbyggere og kommunen, slik at kommunen vet hvor det er dårlig måkt."
         }
+    },
+
+    "about": {
+        "header": "Om",
+        "description1": "Jeg er en utvikler og en designer som har studert webutvikling ved NTNU Gjøvik de siste 3 årene. Jeg er ferdig med bachelor i 2025.",
+        "description2": "Jeg er 23 år gammel og kommer fra Bødalen i Asker. Teknologi og koding har alltid vært en lidenskap for meg. I 2022 begynte jeg på studiet webutvikling ved NTNU og jeg innså raskt at dette var noe jeg virkelig ønsket å jobbe med. Jeg liker å lære nye ting og utfordre meg selv. Det er også viktig for meg å holde meg aktiv, og jeg bruker mye tid på treningssenteret. I tillegg elsker jeg å reise og oppleve nye steder og kulturer."
+    },
+
+    "contact": {
+        "header": "Kontakt",
+        "description": "Hvis du vil kontakte meg, kan du sende en e-post til:",
+        "email": "E-post: "
     }
 }

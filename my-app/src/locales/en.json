@@ -21,12 +21,24 @@
       "description": "For the subject full-stack web development, I and two other students developed a full-stack web application called the SUPER Assessor. The application is designed for teachers to create and evaluate assessment forms through a card-based game. Teachers can play alone or in a team. When the game is finished, the result is a new assessment form that can be shared with others or saved for later use. The application also allows teachers to manage their own profiles, game sessions, and generate PDFs of their forms. We used the MERN stack to develop the application. I contributed to designing the REST API for the backend, building the frontend with React, and implementing security features for login with tokens. In this project, we learned to work with all parts of a project, both frontend and backend, to build a scalable and secure application."
     },
     "project2": {
-        "title": "Travel website with a focus on accessibility",
-        "description": "In the subject accessibility, usability, and ethics, I developed a website with a travel theme. The goal was to create a user-friendly platform for young adults, following the Web Content Accessibility Guidelines (WCAG). The design focused on inclusion and ensured that users with various disabilities could easily navigate and interact with the content. I used ARIA where necessary to provide additional context to assistive technologies and ensured that all links were descriptive. The entire website can be navigated using only the keyboard, making it accessible to users with motor disabilities."
+      "title": "Travel website with a focus on accessibility",
+      "description": "In the subject accessibility, usability, and ethics, I developed a website with a travel theme. The goal was to create a user-friendly platform for young adults, following the Web Content Accessibility Guidelines (WCAG). The design focused on inclusion and ensured that users with various disabilities could easily navigate and interact with the content. I used ARIA where necessary to provide additional context to assistive technologies and ensured that all links were descriptive. The entire website can be navigated using only the keyboard, making it accessible to users with motor disabilities."
     },
     "project3": {
-        "title": "TryggTur for Gjøvik municipality",
-        "description": "For the subject design in health services, I and 2 other students developed a service designed to inform about and request the clearing of sidewalks. Users can subscribe to alerts when sidewalks are gritted or cleared of snow and they can also send requests for these services in their own neighborhood or other parts of the city. The goal of the service is to make it safer to walk and cycle in the city during winter. The website also includes a section that promotes safer driving habits to protect pedestrians and cyclists. The app aims to improve communication between residents and the municipality so that the municipality knows where it is poorly cleared."
+      "title": "TryggTur for Gjøvik municipality",
+      "description": "For the subject design in health services, I and 2 other students developed a service designed to inform about and request the clearing of sidewalks. Users can subscribe to alerts when sidewalks are gritted or cleared of snow and they can also send requests for these services in their own neighborhood or other parts of the city. The goal of the service is to make it safer to walk and cycle in the city during winter. The website also includes a section that promotes safer driving habits to protect pedestrians and cyclists. The app aims to improve communication between residents and the municipality so that the municipality knows where it is poorly cleared."
     }
+  },
+
+  "about": {
+    "header": "About",
+    "description1": "I am a developer and a designer who has studied web development at NTNU Gjøvik for the past 3 years. I will graduate with a bachelor's degree in 2025.",
+    "description2": "I am 23 years old and come from Bødalen in Asker. Technology and coding have always been a passion of mine. In 2022, I started studying web development at NTNU and quickly realized that this was something I really wanted to work with. I enjoy learning new things and challenging myself. It is also important for me to stay active and I spend a lot of time at the gym. In addition, I love to travel and experience new places and cultures."
+  },
+
+  "contact": {
+    "header": "Contact",
+    "description": "If you want to contact me, you can send an email to:",
+    "email": "Email: "
   }
 }
