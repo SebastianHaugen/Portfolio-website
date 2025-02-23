@@ -9,7 +9,7 @@ function About() {
 
   return (
     <div className="about-container" id="about">
-      <h2 className="about-title">Om</h2>
+      <h2 className="about-title">{t("about.header")}</h2>
       <p className="about-header">{t("about.description1")}</p>
       <p>{t("about.description2")}</p>
       <div className="image-collage">

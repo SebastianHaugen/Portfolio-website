@@ -1,7 +1,7 @@
 // src/components/FloatingLanguageSwitcher.js
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { NO, US } from "country-flag-icons/react/3x2"; // Import the flags
+import { NO, GB } from "country-flag-icons/react/3x2"; 
 
 const FloatingLanguageSwitcher = () => {
   // Get the i18n instance from the hook
@@ -42,7 +42,7 @@ const FloatingLanguageSwitcher = () => {
           fontSize: "20px",
         }}
       >
-        {language === "en" ? <NO style={{ width: "40px", height: "40px" }} /> : <US style={{ width: "40px", height: "40px" }} />}
+        {language === "en" ? <NO style={{ width: "40px", height: "40px" }} /> : <GB style={{ width: "40px", height: "40px" }} />}
       </button>
     </div>
   );
