@@ -18,7 +18,7 @@
     "header": "Projects",
     "project1": {
       "title": "The SUPER Assessor",
-      "description": "For the subject full-stack web development, I and two other students developed a full-stack web application called the SUPER Assessor. The application is designed for teachers to create and evaluate assessment forms through a card-based game. Teachers can play alone or in a team. When the game is finished, the result is a new assessment form that can be shared with others or saved for later use. The application also allows teachers to manage their own profiles, game sessions, and generate PDFs of their forms. We used the MERN stack to develop the application. I contributed to designing the REST API for the backend, building the frontend with React, and implementing security features for login with tokens. In this project, we learned to work with all parts of a project, both frontend and backend, to build a scalable and secure application."
+      "description": "For the subject full-stack web development, me and two other students developed a full-stack web application called the SUPER Assessor. The application is designed for teachers to create and evaluate assessment forms through a card-based game. Teachers can play alone or in a team. When the game is finished, the result is a new assessment form that can be shared with others or saved for later use. The application also allows teachers to manage their own profiles, game sessions, and generate PDFs of their forms. We used the MERN stack to develop the application. I contributed to designing the REST API for the backend, building the frontend with React, and implementing security features for login with tokens. In this project, we learned to work with all parts of a project, both frontend and backend, to build a scalable and secure application."
     },
     "project2": {
       "title": "Travel website with a focus on accessibility",
@@ -26,7 +26,7 @@
     },
     "project3": {
       "title": "TryggTur for Gjøvik municipality",
-      "description": "For the subject design in health services, I and 2 other students developed a service designed to inform about and request the clearing of sidewalks. Users can subscribe to alerts when sidewalks are gritted or cleared of snow and they can also send requests for these services in their own neighborhood or other parts of the city. The goal of the service is to make it safer to walk and cycle in the city during winter. The website also includes a section that promotes safer driving habits to protect pedestrians and cyclists. The app aims to improve communication between residents and the municipality so that the municipality knows where it is poorly cleared."
+      "description": "For the subject design in health services, me and 2 other students developed a service designed to inform about and request the clearing of sidewalks. Users can subscribe to alerts when sidewalks are gritted or cleared of snow and they can also send requests for these services in their own neighborhood or other parts of the city. The goal of the service is to make it safer to walk and cycle in the city during winter. The website also includes a section that promotes safer driving habits to protect pedestrians and cyclists. The app aims to improve communication between residents and the municipality so that the municipality knows where it is poorly cleared."
     }
   },
 
@@ -40,5 +40,10 @@
     "header": "Contact",
     "description": "If you want to contact me, you can send an email to:",
     "email": "Email: "
+  },
+
+  "read": {
+    "more": "Read more",
+    "less": "Read less"
   }
 }

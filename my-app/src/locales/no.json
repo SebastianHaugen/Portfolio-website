@@ -40,5 +40,10 @@
         "header": "Kontakt",
         "description": "Hvis du vil kontakte meg, kan du sende en e-post til:",
         "email": "E-post: "
+    },
+
+    "read": {
+        "more": "Les mer",
+        "less": "Les mindre"
     }
 }

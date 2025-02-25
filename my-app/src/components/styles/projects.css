@@ -1,63 +1,90 @@
 /* Container for all projects */
 .projects-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
 }
 
 .projects-container h2 {
-    text-align: center;
-    margin-bottom: 40px;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 /* Each project card */
 .project {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 60px;
 }
 
 /* Alternate the layout for variety */
 .project:nth-child(even) {
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 .project-content {
-    flex: 1;
+  flex: 1;
 }
 
 .project-content img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
 /* Styling for the text section */
 .project-text {
-    flex: 1;
+  flex: 1;
 }
 
 span {
-    color: #D2042D;
+  color: #d2042d;
 }
 
 span:hover {
-    text-decoration: underline;
-    cursor: pointer;
+  text-decoration: underline;
+  cursor: pointer;
 }
-
 
 .project-text p {
-    line-height: 1.6;
+  line-height: 1.6;
 }
+
+/* Styling for links */
+.project-links {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+/* Common styles for project-link buttons */
+.project-link {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.project-link:hover {
+  scale: 1.1;
+}
+
+/* Style for the links logos */
+.link-logos {
+  width: 50px;
+  height: auto;
+  margin-right: 5px;
+}
+
+
 
 /* Responsive adjustments for mobile */
 @media (max-width: 768px) {
-    .project {
-        flex-direction: column;
-        text-align: center;
-    }
+  .project {
+    flex-direction: column;
+    text-align: center;
+  }
 }

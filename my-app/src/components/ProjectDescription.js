@@ -1,16 +1,21 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 function ProjectDescription({ text, maxWords = 40 }) {
   const [expanded, setExpanded] = useState(false);
   const words = text.split(" ");
-  const truncatedText = words.slice(0, maxWords).join(" ") + (words.length > maxWords ? "..." : "");
+  const truncatedText =
+    words.slice(0, maxWords).join(" ") + (words.length > maxWords ? "..." : "");
+
+  // Using translation from json file in locales folder
+  const { t } = useTranslation();
 
   return (
     <div>
       <p>{expanded ? text : truncatedText}</p>
       {words.length > maxWords && (
         <span className="read-more" onClick={() => setExpanded(!expanded)}>
-          {expanded ? "Read less" : "Read more"}
+          {expanded ? t("read.less") : t("read.more")}
         </span>
       )}
     </div>
