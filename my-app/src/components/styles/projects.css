@@ -65,7 +65,6 @@ span:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .project-link:hover {
@@ -78,8 +77,6 @@ span:hover {
   height: auto;
   margin-right: 5px;
 }
-
-
 
 /* Responsive adjustments for mobile */
 @media (max-width: 768px) {
