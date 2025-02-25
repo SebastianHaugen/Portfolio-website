@@ -47,6 +47,7 @@
     .intro {
         grid-template-columns: 1fr;
         gap: 0;
+        min-height: auto;
     }
 
     .intro-text p {

@@ -3,6 +3,7 @@ import fullstack from "../assets/img/webp/full-stack-application-min.webp";
 import travel from "../assets/img/webp/travel-min.webp";
 import tryggtur from "../assets/img/webp/trygg-tur-min.webp";
 import { useTranslation } from "react-i18next";
+import ProjectDescription from "./ProjectDescription";
 
 function Projects() {
   // The useTranslation hook returns a t function that we can use to translate text.
@@ -18,7 +19,7 @@ function Projects() {
         <div className="project-text">
           <h3>{t("projects.project1.title")}</h3>
           <p>
-          {t("projects.project1.description")}
+          <ProjectDescription text={t("projects.project1.description")} />
           </p>
         </div>
       </div>
@@ -30,7 +31,7 @@ function Projects() {
         <div className="project-text">
           <h3>{t("projects.project2.title")}</h3>
           <p>
-          {t("projects.project2.description")}
+          <ProjectDescription text={t("projects.project1.description")} />
           </p>
         </div>
       </div>
@@ -42,7 +43,7 @@ function Projects() {
         <div className="project-text">
           <h3>{t("projects.project3.title")}</h3>
           <p>
-          {t("projects.project3.description")}
+          <ProjectDescription text={t("projects.project1.description")} />
           </p>
         </div>
       </div>
