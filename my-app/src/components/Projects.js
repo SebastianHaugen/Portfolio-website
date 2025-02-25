@@ -17,16 +17,6 @@ function Projects() {
       <div className="project project1">
         <div className="project-content">
           <img src={fullstack} alt="project 1" />
-          <div className="project-links">
-            <a
-              href="https://github.com/yourusername/fullstack-project"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="project-link github"
-            >
-              <img src={githubLogo} alt="GitHub logo" className="link-logos" />
-            </a>
-          </div>
         </div>
         <div className="project-text">
           <h3>{t("projects.project1.title")}</h3>

@@ -5,11 +5,6 @@
   padding: 40px 20px;
 }
 
-.projects-container h2 {
-  text-align: center;
-  margin-bottom: 40px;
-}
-
 /* Each project card */
 .project {
   display: flex;
@@ -63,8 +58,6 @@ span:hover {
 .project-link {
   border-radius: 50%;
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .project-link:hover {
@@ -80,8 +73,9 @@ span:hover {
 
 /* Responsive adjustments for mobile */
 @media (max-width: 768px) {
-  .project {
-    flex-direction: column;
-    text-align: center;
+    .project,
+    .project:nth-child(even) {
+      flex-direction: column;
+      flex-direction: column-reverse;
+    }
   }
-}
