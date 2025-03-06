@@ -3,9 +3,6 @@ import fullstack from "../assets/img/webp/full-stack-application-min.webp";
 import travel from "../assets/img/webp/travel-min.webp";
 import tryggtur from "../assets/img/webp/trygg-tur-min.webp";
 import { useTranslation } from "react-i18next";
-import ProjectDescription from "./ProjectDescription";
-import githubLogo from "../assets/img/github-mark.png";
-import figmaLogo from "../assets/img/figma-logo.png";
 
 function Projects() {
   const { t } = useTranslation();
@@ -14,59 +11,78 @@ function Projects() {
     <div className="projects-container" id="projects">
       <h2>{t("projects.header")}</h2>
 
-      <div className="project project1">
+      {/* Project 1 - SUPER Assessor */}
+      <div className="project">
         <div className="project-content">
-          <img src={fullstack} alt="project 1" />
+          <img src={fullstack} alt={t("projects.project1.title")} />
         </div>
         <div className="project-text">
           <h3>{t("projects.project1.title")}</h3>
-          <p>
-            <ProjectDescription text={t("projects.project1.description")} />
-          </p>
+          <p>{t("projects.project1.summary")}</p>
+
+          <h4>{t("projects.achievements")}</h4>
+          <ul>
+            {t("projects.project1.achievements", { returnObjects: true }).map((achievement, index) => (
+              <li key={index}>{achievement}</li>
+            ))}
+          </ul>
+
+          <h4>{t("projects.whatIlearned")}</h4>
+          <ul>
+            {t("projects.project1.learnings", { returnObjects: true }).map((learning, index) => (
+              <li key={index}>{learning}</li>
+            ))}
+          </ul>
         </div>
       </div>
 
-      <div className="project project2">
+      {/* Project 2 - Travel Website */}
+      <div className="project">
         <div className="project-content">
-          <img src={travel} alt="project 2" />
-          <div className="project-links">
-            <a
-              href="https://github.com/SebastianHaugen/accessible-travel-website"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="project-link github"
-            >
-              <img src={githubLogo} alt="GitHub logo" className="link-logos" />
-            </a>
-          </div>
+          <img src={travel} alt={t("projects.project2.title")} />
         </div>
         <div className="project-text">
           <h3>{t("projects.project2.title")}</h3>
-          <p>
-            <ProjectDescription text={t("projects.project2.description")} />
-          </p>
+          <p>{t("projects.project2.summary")}</p>
+
+          <h4>{t("projects.achievements")}</h4>
+          <ul>
+            {t("projects.project2.achievements", { returnObjects: true }).map((achievement, index) => (
+              <li key={index}>{achievement}</li>
+            ))}
+          </ul>
+
+          <h4>{t("projects.whatIlearned")}</h4>
+          <ul>
+            {t("projects.project2.learnings", { returnObjects: true }).map((learning, index) => (
+              <li key={index}>{learning}</li>
+            ))}
+          </ul>
         </div>
       </div>
 
-      <div className="project project3">
+      {/* Project 3 - TryggTur */}
+      <div className="project">
         <div className="project-content">
-          <img src={tryggtur} alt="project 3" />
-          <div className="project-links">
-            <a
-              href="https://www.figma.com/proto/Js7bnsKBGFTIpgKS4fBlVr/Trygg-tur?node-id=126-244&starting-point-node-id=126%3A244&t=x2BRbtuiWQ6lLFGV-1"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="project-link figma"
-            >
-               <img src={figmaLogo} alt="Figma logo" className="link-logos" />
-            </a>
-          </div>
+          <img src={tryggtur} alt={t("projects.project3.title")} />
         </div>
         <div className="project-text">
           <h3>{t("projects.project3.title")}</h3>
-          <p>
-            <ProjectDescription text={t("projects.project3.description")} />
-          </p>
+          <p>{t("projects.project3.summary")}</p>
+
+          <h4>{t("projects.achievements")}</h4>
+          <ul>
+            {t("projects.project3.achievements", { returnObjects: true }).map((achievement, index) => (
+              <li key={index}>{achievement}</li>
+            ))}
+          </ul>
+
+          <h4>{t("projects.whatIlearned")}</h4>
+          <ul>
+            {t("projects.project3.learnings", { returnObjects: true }).map((learning, index) => (
+              <li key={index}>{learning}</li>
+            ))}
+          </ul>
         </div>
       </div>
     </div>

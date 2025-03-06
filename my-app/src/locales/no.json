@@ -1,49 +1,90 @@
 {
-    "intro": {
-        "hello": "Hei!",
-        "description1": "Jeg er Sebastian,",
-        "description2": "en webutvikler som er opptatt av å lage moderne, bærekraftige, tilgjengelig og effektive nettsider. Jeg liker å jobbe med JavaScript, React, SQL og Python.",
-        "imageAlt": "Meg, Sebastian Haugen"
+  "intro": {
+    "hello": "Hei!",
+    "description1": "Jeg er Sebastian,",
+    "description2": "en webutvikler som er opptatt av å lage moderne, bærekraftige, tilgjengelige og effektive nettsider. Jeg liker å jobbe med JavaScript, React, SQL og Python.",
+    "imageAlt": "Meg, Sebastian Haugen"
+  },
+
+  "nav": {
+    "title": "Webutvikler",
+    "home": "Hjem",
+    "about": "Om",
+    "projects": "Prosjekter",
+    "contact": "Kontakt"
+  },
+
+  "projects": {
+    "header": "Prosjekter",
+    "achievements": "Hva jeg oppnådde:",
+    "whatIlearned": "Hva jeg lærte:",
+
+    "project1": {
+      "title": "SUPER Assessor – Fullstack Webapplikasjon",
+      "summary": "Utviklet som en del av et fullstack webutviklingskurs. SUPER Assessor hjelper lærere med å lage og evaluere vurderingsskjemaer gjennom et kortbasert spill. Bygget med MERN-stacken.",
+      "achievements": [
+        "Designet og implementerte et REST API ved bruk av Node.js og Express.",
+        "Bygde frontend med React for en responsiv brukeropplevelse.",
+        "Implementerte JWT-basert autentisering for sikker innlogging og øktstyring.",
+        "Utviklet en PDF-genereringsfunksjon for å eksportere vurderingsskjemaer."
+      ],
+      "learnings": [
+        "Fikk praktisk erfaring med MERN-stacken (MongoDB, Express, React, Node.js).",
+        "Forbedret forståelsen av API-design og dataflyt mellom frontend og backend.",
+        "Lærte hvordan man bygger en skalerbar og sikker autentiseringsløsning med tokens.",
+        "Forbedret samarbeidsevner ved bruk av GitHub for versjonskontroll og Agile prinsipper."
+      ]
     },
 
-    "nav": {
-        "title": "Webutvikler",
-        "home": "Hjem",
-        "about": "Om",
-        "projects": "Prosjekter",
-        "contact": "Kontakt"
+    "project2": {
+      "title": "Reisenettsted med fokus på tilgjengelighet",
+      "summary": "For et kurs i tilgjengelighet, brukervennlighet og etikk utviklet jeg en reiseplattform med fokus på inkluderende design. Målet var å sikre at brukere med ulike funksjonsnedsettelser kunne navigere og bruke siden i tråd med WCAG-retningslinjene.",
+      "achievements": [
+        "Designet og implementerte en fullstendig tilgjengelig nettside i henhold til WCAG 2.1.",
+        "Brukte ARIA-attributter for å forbedre skjermleserstøtte for synshemmede brukere.",
+        "Sikret full tastaturnavigasjon for å støtte brukere med motoriske utfordringer.",
+        "Optimaliserte fargekontrast, typografi og interaktive elementer for bedre brukervennlighet."
+      ],
+      "learnings": [
+        "Fordypet meg i prinsipper for webtilgjengelighet og hjelpemiddelteknologier.",
+        "Lærte hvordan man tester nettsider med skjermlesere og tastaturnavigasjon.",
+        "Forbedret ferdigheter innen inkluderende UI/UX-design.",
+        "Forstod de etiske implikasjonene av digital tilgjengelighet og inkludering."
+      ]
     },
 
-    "projects": {
-        "header": "Prosjekter",
-        "project1": {
-        "title": "The SUPER Assessor",
-        "description": "For emnet full-stack webutvikling utviklet jeg og to andre studenter, en fullstack webapplikasjon kalt SUPER Assessor. Applikasjonen er designet for lærere, slik at de kan lage og evaluere vurderingsskjemaer gjennom et kortbasert spill. Lærere kan spille alene eller i et team. Når spillet er ferdig er resultatet et nytt vurderingsskjema som kan deles med andre eller lagres til senere bruk. Applikasjonen lar også lærere administrere sine egne profiler, spilløkter og generere PDF-er av skjemaene sine. Vi brukte MERN-stacken for å utvikle applikasjonen. Jeg bidro til å designe REST API for backend, bygge frontend med React og implementere sikkerhetsfunksjoner for innlogging med tokens. I dette prosjektet lærte vi å jobbe med alle deler av et prosjekt, både frontend og backend, for å bygge en skalerbar og sikker applikasjon."
-        },
-        "project2": {
-            "title": "Reise nettside med fokus på tilgjengelighet",
-            "description": "I emnet tilgjengelighet, brukervennlighet og etikk utviklet jeg en nettside med et reisetema. Målet var å lage en brukervennlig plattform for unge voksne, i tråd med retningslinjene for tilgjengelig webinnhold (WCAG). Designet fokuserte på inkludering og sørget for at brukere med ulike funksjonsnedsettelser enkelt kunne navigere og interagere med innholdet. Jeg brukte ARIA der det var nødvendig for å gi ekstra kontekst til hjelpemiddelteknologier og sørget for at alle lenker var beskrivende. Hele nettstedet kan navigeres kun ved hjelp av tastatur, noe som gjør det tilgjengelig for brukere med motoriske funksjonsnedsettelser."
-        },
-        "project3": {
-            "title": "TryggTur for Gjøvik kommune",
-            "description": "For emnet design i helsetjenester utviklet jeg og 2 andre studenter en tjeneste designet for å informere om og be om måking av fortau. Brukere kan abonnere på varsler når fortau blir strødd eller måket for snø, og de kan også sende forespørsler om disse tjenestene i sitt eget nabolag eller andre steder i byen. Målet med tjenesten er å gjøre det tryggere å gå og sykle i byen om vinteren. Nettsiden inkluderer også en seksjon som fremmer tryggere kjørevaner for å beskytte fotgjengere og syklister. Appen har som mål å forbedre kommunikasjonen mellom innbyggere og kommunen, slik at kommunen vet hvor det er dårlig måkt."
-        }
-    },
-
-    "about": {
-        "header": "Om",
-        "description1": "Jeg er en utvikler og en designer som har studert webutvikling ved NTNU Gjøvik de siste 3 årene. Jeg er ferdig med bachelor i 2025.",
-        "description2": "Jeg er 23 år gammel og kommer fra Bødalen i Asker. Teknologi og koding har alltid vært en lidenskap for meg. I 2022 begynte jeg på studiet webutvikling ved NTNU og jeg innså raskt at dette var noe jeg virkelig ønsket å jobbe med. Jeg liker å lære nye ting og utfordre meg selv. Det er også viktig for meg å holde meg aktiv, og jeg bruker mye tid på treningssenteret. I tillegg elsker jeg å reise og oppleve nye steder og kulturer."
-    },
-
-    "contact": {
-        "header": "Kontakt",
-        "description": "Hvis du vil kontakte meg, kan du sende en e-post til:",
-        "email": "E-post: "
-    },
-
-    "read": {
-        "more": "Les mer",
-        "less": "Les mindre"
+    "project3": {
+      "title": "TryggTur – Forbedret vintertrygghet i Gjøvik",
+      "summary": "For et kurs i design av helsetjenester samarbeidet jeg med to andre studenter for å utvikle TryggTur – en plattform som hjelper innbyggere med å rapportere og følge opp måking av fortau om vinteren. Brukere kan be om snørydding, abonnere på varsler og bidra til tryggere gang- og sykkelforhold.",
+      "achievements": [
+        "Utviklet et brukervennlig grensesnitt der innbyggere kan rapportere utrygge fortau.",
+        "Implementerte et varslingssystem som informerer brukere om når fortau er måkt eller strødd.",
+        "Integrerte et interaktivt kart for å vise serviceforespørsler og oppdateringer.",
+        "Designet og optimaliserte plattformen for både desktop og mobil."
+      ],
+      "learnings": [
+        "Lærte hvordan man bruker brukerfokusert design for å løse reelle problemer.",
+        "Fikk erfaring med å designe interaktive kart og integrere sanntidsdata.",
+        "Forstod hvordan teknologi kan forbedre offentlige tjenester og sikkerhet.",
+        "Forbedret samarbeid og kommunikasjon med team og interessenter."
+      ]
     }
+  },
+
+  "about": {
+    "header": "Om",
+    "description1": "Jeg er en utvikler og en designer som har studert webutvikling ved NTNU Gjøvik de siste 3 årene. Jeg er ferdig med bachelorgraden min i 2025.",
+    "description2": "Jeg er 23 år gammel og kommer fra Bødalen i Asker. Teknologi og koding har alltid vært en lidenskap for meg. I 2022 begynte jeg på studiet webutvikling ved NTNU og innså raskt at dette var noe jeg virkelig ønsket å jobbe med. Jeg liker å lære nye ting og utfordre meg selv. Det er også viktig for meg å holde meg aktiv, og jeg bruker mye tid på treningssenteret. I tillegg elsker jeg å reise og oppleve nye steder og kulturer."
+  },
+
+  "contact": {
+    "header": "Kontakt",
+    "description": "Hvis du vil kontakte meg, kan du sende en e-post til:",
+    "email": "E-post: "
+  },
+
+  "read": {
+    "more": "Les mer",
+    "less": "Les mindre"
+  }
 }

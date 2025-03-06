@@ -12,7 +12,7 @@ function ProjectDescription({ text, maxWords = 40 }) {
 
   return (
     <div>
-      <p>{expanded ? text : truncatedText}</p>
+      <div>{expanded ? text : truncatedText}</div>
       {words.length > maxWords && (
         <span className="read-more" onClick={() => setExpanded(!expanded)}>
           {expanded ? t("read.less") : t("read.more")}
