@@ -78,6 +78,16 @@ span:hover {
   margin-right: 5px;
 }
 
+.read-more-link {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.read-more-link:hover {
+  color: #0056b3;
+}
+
+
 /* Responsive adjustments for mobile */
 @media (max-width: 768px) {
   .project {

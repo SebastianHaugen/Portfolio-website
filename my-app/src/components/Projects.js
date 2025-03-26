@@ -3,6 +3,7 @@ import fullstack from "../assets/img/webp/full-stack-application-min.webp";
 import travel from "../assets/img/webp/travel-min.webp";
 import tryggtur from "../assets/img/webp/trygg-tur-min.webp";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 function Projects() {
   const { t } = useTranslation();
@@ -19,20 +20,9 @@ function Projects() {
         <div className="project-text">
           <h3>{t("projects.project1.title")}</h3>
           <p>{t("projects.project1.summary")}</p>
-
-          <h4>{t("projects.achievements")}</h4>
-          <ul>
-            {t("projects.project1.achievements", { returnObjects: true }).map((achievement, index) => (
-              <li key={index}>{achievement}</li>
-            ))}
-          </ul>
-
-          <h4>{t("projects.whatIlearned")}</h4>
-          <ul>
-            {t("projects.project1.learnings", { returnObjects: true }).map((learning, index) => (
-              <li key={index}>{learning}</li>
-            ))}
-          </ul>
+          <Link to="/project1" className="read-more-link">
+            {t("read.more")}
+          </Link> {/* Link to Project 1 detail page */}
         </div>
       </div>
 
@@ -44,20 +34,9 @@ function Projects() {
         <div className="project-text">
           <h3>{t("projects.project2.title")}</h3>
           <p>{t("projects.project2.summary")}</p>
-
-          <h4>{t("projects.achievements")}</h4>
-          <ul>
-            {t("projects.project2.achievements", { returnObjects: true }).map((achievement, index) => (
-              <li key={index}>{achievement}</li>
-            ))}
-          </ul>
-
-          <h4>{t("projects.whatIlearned")}</h4>
-          <ul>
-            {t("projects.project2.learnings", { returnObjects: true }).map((learning, index) => (
-              <li key={index}>{learning}</li>
-            ))}
-          </ul>
+          <Link to="/project2" className="read-more-link">
+            {t("read.more")}
+          </Link> {/* Link to Project 2 detail page */}
         </div>
       </div>
 
@@ -69,21 +48,11 @@ function Projects() {
         <div className="project-text">
           <h3>{t("projects.project3.title")}</h3>
           <p>{t("projects.project3.summary")}</p>
-
-          <h4>{t("projects.achievements")}</h4>
-          <ul>
-            {t("projects.project3.achievements", { returnObjects: true }).map((achievement, index) => (
-              <li key={index}>{achievement}</li>
-            ))}
-          </ul>
-
-          <h4>{t("projects.whatIlearned")}</h4>
-          <ul>
-            {t("projects.project3.learnings", { returnObjects: true }).map((learning, index) => (
-              <li key={index}>{learning}</li>
-            ))}
-          </ul>
+          <Link to="/project1" className="read-more-link">
+            {t("read.more")}
+          </Link> {/* Link to Project 3 detail page */}
         </div>
+
       </div>
     </div>
   );

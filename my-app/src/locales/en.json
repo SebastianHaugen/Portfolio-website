@@ -16,58 +16,20 @@
 
   "projects": {
     "header": "Projects",
-    "achievements": "Achievements:",
-    "whatIlearned": "What I Learned:",
 
     "project1": {
       "title": "The SUPER Assessor",
-      "summary": "Developed for the full-stack web development course, this project was created with 2 other students. The application helps teachers create and evaluate assessment forms using a card-based game. Built using the MERN stack.",
-      "achievements": [
-        "Designed and implemented a REST API using Node.js and Express.",
-        "Built the frontend using React for a responsive UI.",
-        "Implemented JWT-based authentication for secure login and session management.",
-        "Developed a PDF generation feature for exporting assessment forms."
-      ],
-      "learnings": [
-        "Gained hands-on experience working with the MERN (MongoDB, Express, React, Node.js) stack.",
-        "Better understanding of API design and data flow between frontend and backend.",
-        "Learned how to design a scalable and secure authentication system using tokens.",
-        "Learned about team collaboration using GitHub for version control and Agile principles."
-      ]
+      "summary": "Developed for the full-stack web development course, this project was created with 2 other students. The application helps teachers create and evaluate assessment forms using a card-based game. Built using the MERN stack."
     },
 
     "project2": {
       "title": "Travel Website with a Focus on Accessibility",
-      "summary": "For an accessibility, usability, and ethics course, I built a travel-themed website that prioritizes inclusive design. The goal was to ensure that users with various disabilities could navigate and interact with the site easily, following WCAG (Web Content Accessibility Guidelines).",
-      "achievements": [
-        "Designed and implemented a fully accessible website following WCAG 2.1 guidelines.",
-        "Used ARIA attributes to improve screen reader support for visually impaired users.",
-        "Ensured full keyboard navigation to support users with motor disabilities.",
-        "Optimized color contrast, typography, and interactive elements for usability."
-      ],
-      "learnings": [
-        "Gained deeper knowledge of web accessibility principles and assistive technologies.",
-        "Learned how to test websites using screen readers and keyboard navigation.",
-        "Strengthened skills in inclusive UI/UX design.",
-        "Understood the ethical implications of digital accessibility and inclusion."
-      ]
+      "summary": "For an accessibility, usability, and ethics course, I built a travel-themed website that prioritizes inclusive design. The goal was to ensure that users with various disabilities could navigate and interact with the site easily, following WCAG (Web Content Accessibility Guidelines)."
     },
 
     "project3": {
       "title": "TryggTur – Improving Winter Safety in Gjøvik",
-      "summary": "For a health service design course, I collaborated with two other students to develop TryggTur, a platform that helps citizens report and track sidewalk clearing efforts during winter. Users can request snow removal, subscribe to alerts, and contribute to safer walking and cycling conditions.",
-      "achievements": [
-        "Developed a user-friendly interface that allows residents to report uncleared sidewalks.",
-        "Implemented a real-time notification system to inform users when sidewalks are cleared or gritted.",
-        "Integrated an interactive map for users to track service requests and maintenance updates.",
-        "Designed and optimized the platform for both desktop and mobile users."
-      ],
-      "learnings": [
-        "Learned how to apply user-centered design principles in a real-world problem.",
-        "Gained experience in designing interactive maps and integrating live data updates.",
-        "Developed a deeper understanding of how technology can improve public safety services.",
-        "Enhanced teamwork and communication skills while collaborating with stakeholders."
-      ]
+      "summary": "For a health service design course, I collaborated with two other students to develop TryggTur, a platform that helps citizens report and track sidewalk clearing efforts during winter. Users can request snow removal, subscribe to alerts, and contribute to safer walking and cycling conditions."
     }
   },
 
