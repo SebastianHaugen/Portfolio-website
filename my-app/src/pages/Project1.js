@@ -9,7 +9,7 @@ function ProjectPage() {
 
   return (
     <div className="project-container">
-      <div className="timeline">
+      <div className="timeline" >
         {milestones.map((_, index) => (
           <div
             key={index}
