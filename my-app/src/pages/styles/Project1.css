@@ -4,14 +4,15 @@
 }
 
 .timeline {
-  position: sticky;
   display: flex;
+  position: sticky;
+  top: 9.5rem;
   flex-direction: column;
   gap: 5rem;
   padding: 2rem;
   height: fit-content;
   height: 100vh;
-  top: 0;
+  
 }
 
 .timeline::before {
