@@ -11,26 +11,33 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    // Først send e-post til deg selv
     emailjs
       .sendForm(
         process.env.REACT_APP_EMAILJS_SERVICE_ID,
-        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        "template_qbbbsvk", // ← e-post til deg
         formRef.current,
         process.env.REACT_APP_EMAILJS_PUBLIC_KEY
       )
-      .then(
-        (result) => {
-          console.log("SUCCESS!", result.text);
-          setIsSent(true);
-          formRef.current.reset();
-        },
-        (error) => {
-          console.log("FAILED...", error.text);
-          console.log(process.env.REACT_APP_EMAILJS_SERVICE_ID);
-          console.log(process.env.REACT_APP_EMAILJS_TEMPLATE_ID); 
-          console.log(process.env.REACT_APP_EMAILJS_PUBLIC_KEY);
-        }
-      );
+      .then(() => {
+        // Deretter send autosvar til brukeren
+        emailjs.send(
+          process.env.REACT_APP_EMAILJS_SERVICE_ID,
+          process.env.REACT_APP_EMAILJS_TEMPLATE_ID, // ← autosvar-template
+          {
+            user_name: formRef.current.user_name.value,
+            user_email: formRef.current.user_email.value,
+          },
+          process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+        );
+
+        // Vis bekreftelse og tøm skjema
+        setIsSent(true);
+        formRef.current.reset();
+      })
+      .catch((error) => {
+        console.error("E-postfeil:", error);
+      });
   };
 
   return (
