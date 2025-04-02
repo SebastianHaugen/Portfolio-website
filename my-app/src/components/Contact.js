@@ -60,7 +60,7 @@ function Contact() {
         </label>
         <button type="submit">Send</button>
         {isSent && (
-          <p className="success-msg">Takk! Meldingen din ble sendt 😊</p>
+          <p className="success-msg">Takk! Meldingen din ble sendt</p>
         )}
       </form>
     </div>

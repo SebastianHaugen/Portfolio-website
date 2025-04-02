@@ -38,36 +38,12 @@
 
     "project2": {
       "title": "Reisenettsted med fokus på tilgjengelighet",
-      "summary": "For et kurs i tilgjengelighet, brukervennlighet og etikk utviklet jeg en reiseplattform med fokus på inkluderende design. Målet var å sikre at brukere med ulike funksjonsnedsettelser kunne navigere og bruke siden i tråd med WCAG-retningslinjene.",
-      "achievements": [
-        "Designet og implementerte en fullstendig tilgjengelig nettside i henhold til WCAG 2.1.",
-        "Brukte ARIA-attributter for å forbedre skjermleserstøtte for synshemmede brukere.",
-        "Sikret full tastaturnavigasjon for å støtte brukere med motoriske utfordringer.",
-        "Optimaliserte fargekontrast, typografi og interaktive elementer for bedre brukervennlighet."
-      ],
-      "learnings": [
-        "Fordypet meg i prinsipper for webtilgjengelighet og hjelpemiddelteknologier.",
-        "Lærte hvordan man tester nettsider med skjermlesere og tastaturnavigasjon.",
-        "Forbedret ferdigheter innen inkluderende UI/UX-design.",
-        "Forstod de etiske implikasjonene av digital tilgjengelighet og inkludering."
-      ]
+      "summary": "For et kurs i tilgjengelighet, brukervennlighet og etikk utviklet jeg en reiseplattform med fokus på inkluderende design. Målet var å sikre at brukere med ulike funksjonsnedsettelser kunne navigere og bruke siden i tråd med WCAG-retningslinjene."
     },
 
     "project3": {
-      "title": "TryggTur – Forbedret vintertrygghet i Gjøvik",
-      "summary": "For et kurs i design av helsetjenester samarbeidet jeg med to andre studenter for å utvikle TryggTur – en plattform som hjelper innbyggere med å rapportere og følge opp måking av fortau om vinteren. Brukere kan be om snørydding, abonnere på varsler og bidra til tryggere gang- og sykkelforhold.",
-      "achievements": [
-        "Utviklet et brukervennlig grensesnitt der innbyggere kan rapportere utrygge fortau.",
-        "Implementerte et varslingssystem som informerer brukere om når fortau er måkt eller strødd.",
-        "Integrerte et interaktivt kart for å vise serviceforespørsler og oppdateringer.",
-        "Designet og optimaliserte plattformen for både desktop og mobil."
-      ],
-      "learnings": [
-        "Lærte hvordan man bruker brukerfokusert design for å løse reelle problemer.",
-        "Fikk erfaring med å designe interaktive kart og integrere sanntidsdata.",
-        "Forstod hvordan teknologi kan forbedre offentlige tjenester og sikkerhet.",
-        "Forbedret samarbeid og kommunikasjon med team og interessenter."
-      ]
+      "title": "HelseInn E-læringskurs",
+      "summary": "Bachelorprosjektet handler om utviklingen av et e-læringskurs for HelseInn og Helsefellesskap Innlandet. Målet er å gjøre opplæring i Fellesmodellen i helsesektoren mer tilgjengelig og effektiv gjennom brukervennlig design, interaktive moduler og forskningsbasert innhold."
     }
   },
 
@@ -79,7 +55,7 @@
 
   "contact": {
     "header": "Kontakt",
-    "description": "Hvis du vil kontakte meg, kan du sende en e-post til:",
+    "description": "Hvis du vil kontakte meg, kan du sende en melding her:",
     "email": "E-post: "
   },
 
