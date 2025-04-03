@@ -9,13 +9,14 @@ function Footer() {
     <footer className="footer">
       {/* Scroll to top button */}
       <div className="footer-top">
-        <a
+        <button
           className="footer-top-link"
+          tabIndex="0"
           aria-label="Til toppen"
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         >
           <ArrowUp size={24} color="#d2042d" />
-        </a>
+        </button>
       </div>
 
       {/* Social links */}

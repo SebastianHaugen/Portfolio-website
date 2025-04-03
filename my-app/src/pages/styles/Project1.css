@@ -40,3 +40,12 @@
   background-color: #d2042d;
   scale: 1.4;
 }
+
+.project-section img {
+  max-width: 800px;
+  max-height: 500px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+

@@ -1,7 +1,7 @@
 import "./styles/projects.css";
 import fullstack from "../assets/img/webp/full-stack-application-min.webp";
 import travel from "../assets/img/webp/travel-min.webp";
-import tryggtur from "../assets/img/webp/trygg-tur-min.webp";
+import fellesmodellen from "../assets/img/fellesmodellen.png";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
@@ -40,10 +40,10 @@ function Projects() {
         </div>
       </div>
 
-      {/* Project 3 - TryggTur */}
+      {/* Project 3 - Bachelor Project */}
       <div className="project">
         <div className="project-content">
-          <img src={tryggtur} alt={t("projects.project3.title")} />
+          <img src={fellesmodellen} alt={t("projects.project3.title")} />
         </div>
         <div className="project-text">
           <h3>{t("projects.project3.title")}</h3>

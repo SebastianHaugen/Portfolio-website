@@ -1,7 +1,8 @@
 .project-section {
   min-height: 100vh;
   padding: 4rem;
-  border-bottom: 1px solid #ddd;
+  margin-bottom: 5rem;
+
 }
 
 .project-image {
