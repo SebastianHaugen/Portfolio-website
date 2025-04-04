@@ -3,6 +3,8 @@ import ProjectSection from "../components/ProjectSection";
 import travelStart from "../assets/img/project2/landing-page.png";
 import travelSurvey from "../assets/img/project2/video-page.png";
 import travelProto from "../assets/img/project2/budget-page.png";
+import figmaPrototype from "../assets/img/project2/figma-prototype.jpg";
+import mobileScreen from "../assets/img/project2/mobile-screen.png";
 import "./styles/Project1.css";
 
 function Project2Page() {
@@ -29,11 +31,6 @@ function Project2Page() {
             gjennomførte en liten spørreundersøkelse med personer som bruker
             skjermleser og stemmestyring.
           </p>
-          <p>
-            Undersøkelsen viste at tydelig merking og konsistent navigasjon er
-            kritisk. På bakgrunn av dette lagde jeg en persona – Alex – som
-            bruker skjermleser, og lot denne personaen styre designvalgene mine.
-          </p>
           <img
             src={travelStart}
             alt="Skjermbilde av ladningsside"
@@ -52,6 +49,7 @@ function Project2Page() {
             WCAG-retningslinjene, og testet tidlig med ulike hjelpemidler som
             skjermleser og tastaturnavigasjon.
           </p>
+          <img src={figmaPrototype} alt="Figma prototype av nettsiden"/>
           <p>
             Jeg la vekt på semantisk HTML, tydelige ARIA-labels, skip-to-main
             funksjon, og høy kontrast. Layouten er bevisst enkel og konsistent
@@ -87,6 +85,7 @@ function Project2Page() {
             <li>Tastaturnavigasjon uten feller</li>
             <li>Responsivt design på alle skjermstørrelser</li>
           </ul>
+          <img src={mobileScreen} alt="Example of mobile screen view"/>
         </ProjectSection>
       </div>
     </div>

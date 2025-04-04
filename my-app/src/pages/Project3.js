@@ -4,6 +4,7 @@ import landingPage from "../assets/img/project3/landing-page.png";
 import reportPage from "../assets/img/project3/report-page.png";
 import coursePage from "../assets/img/project3/courses.png";
 import figmaPrototype from "../assets/img/project3/figma-prototype.png";
+import Fellesmodellen from "../assets/img/fellesmodellen.png";
 import "./styles/Project1.css"; // Gjenbruk stil
 
 function Project3() {
@@ -22,17 +23,17 @@ function Project3() {
           <h2>Startfase</h2>
           <p>
             Bachelorprosjektet startet i 2024 med fordypningsprosjekt emne, der
-            vi fant på be-net prosjektet til HelseInn med "Felles modell for
+            vi fant på BeNet prosjektet til HelseInn med "Felles modell for
             tjenesteutvikling i Helsefellesskap Innlandet". Jeg og 2 andre
-            studenter jobbet sammen i dette prosjektet, mens mesteparten av
+            studenter har jobbet sammen i dette prosjektet, mens mesteparten av
             jobben har blitt gjort i bachelorprosjektet gjorde vi mye av
-            startfasen i fordypningsemnet med en kartlegging av behovene til
-            HelseInn og Helsefellesskap Innlandet. Prosjektet ble startet for å
-            gjøre opplæring i Fellesmodellen mer tilgjengelig for ansatte i
-            helsesektoren. Vi intervjuet personer fra helsesektoren og
-            kommunenen for å få innsikt i hvilke utfordringer brukerne møtte, og
-            hvordan et digitalt kurs kunne bidra til bedre forståelse og
-            implementering av fellesmodellen.
+            startfasen i fordypningsemnet med en konkurrentanalyse av andre
+            e-læringplattformer til HelseInn og Helsefellesskap Innlandet.
+            Prosjektet ble startet for å gjøre opplæring i Fellesmodellen mer
+            tilgjengelig for ansatte i helsesektoren. Vi intervjuet personer fra
+            helsesektoren og kommunenen for å få innsikt i hvilke utfordringer
+            brukerne møtte, og hvordan et digitalt kurs kunne bidra til bedre
+            forståelse og implementering av fellesmodellen.
           </p>
           <p>
             Vi analyserte eksisterende opplæringsmateriell og gjennomførte en
@@ -40,7 +41,7 @@ function Project3() {
             fokus på brukervennlighet, tilpasning til ulike faggrupper, og
             pedagogisk struktur.
           </p>
-          <img src={landingPage} alt="Prototype av e-læringsplattform" />
+          <img src={Fellesmodellen} alt="Fellesmodellen laget av HelseInn"/>
         </ProjectSection>
 
         <ProjectSection index={1} setActive={setActiveIndex}>
@@ -59,20 +60,24 @@ function Project3() {
           </p>
           <img src={figmaPrototype} alt="Prototype av figma" />
           <img src={reportPage} alt="Interaksjonsflyt for kurs" />
+          <img src={landingPage} alt="Prototype av e-læringsplattform" />
         </ProjectSection>
 
         <ProjectSection index={2} setActive={setActiveIndex}>
           <h2>Sluttfase</h2>
           <p>
-            I sluttfasen konsoliderte vi modulene og gjennomførte brukertesting
-            med ansatte i helsetjenesten. Vi evaluerte blant annet forståelse,
-            navigasjon og opplevelsen av e-læringsplattformen.
+            Prosjektet nærmer seg slutten, men e-læringskursene er fortsatt
+            under utvikling. Vi har allerede laget de viktigste modulene og
+            startet brukertesting sammen med ansatte i helsetjenesten. Gjennom
+            testingen med brukerene av Fellesmodellen har vi fått verdifull
+            innsikt i hvordan brukerne forstår innholdet, navigerer i
+            plattformen og opplever det pedagogiske oppsettet.
           </p>
           <p>
-            Resultatene fra testingen ble brukt til å forbedre flyten i kurset
-            og sikre at opplæringen faktisk ga verdi. Vi dokumenterte alle funn
-            og løsninger i rapporten og lagde en tydelig guide for videre drift
-            og utvidelse av systemet.
+            Innsikten vil bli brukt til å lage de modulene som Fellesmodellen
+            skal ha. Vi skal også skrive en bacheloroppgave med hva vi har gjort
+            i prosjektet. Endelig leveringsfrist for prosjektet er satt til 15.
+            mai 2024.
           </p>
           <img src={coursePage} alt="Skjermbilde fra e-læringsmodul" />
         </ProjectSection>

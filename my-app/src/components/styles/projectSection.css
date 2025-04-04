@@ -26,4 +26,8 @@
     margin-top: 1.5rem;
     border-radius: 8px;
   }
+
+  .project-section {
+    min-height: auto;
+  }
 }

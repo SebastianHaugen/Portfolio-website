@@ -8,6 +8,11 @@ import FloatingLanguageSwitcher from "./FloatingLanguageSwitcher";
 function Layout() {
   return (
     <>
+      {/* Skip to main content link */}
+      <a className="skip-main" href="#projects" tabIndex="0">
+        Skip to main content
+      </a>
+
       <div className="layout-container">
         <Nav />
         <main>

@@ -3,6 +3,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import { Squash as Hamburger } from "hamburger-react";
 import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 import "./styles/nav.css";
 
 function Nav() {
@@ -63,10 +64,11 @@ function Nav() {
       <div className="hamburger">
         <Hamburger toggled={isOpen} toggle={setIsOpen} />
       </div>
-      <div className="logo">
+      <Link to="/" className="logo" aria-label={t("nav.home")}>
         <h1>Sebastian</h1>
         <p>{t("nav.title")}</p>
-      </div>
+      </Link>
+
       <div className={`menu ${isOpen ? "open" : ""}`}>
         <ul>
           <li>

@@ -37,6 +37,7 @@ function ProjectPage() {
             fra Excel-arket som inneholdt informasjon om kortene, som vi kunne
             bruke i prosjektet. var utviklet i samarbeid med 2 studenter
           </p>
+          <img src={startImage} alt="Skjermbilde av SUPER Assessor" />
           <p>
             Jeg startet med å sette opp strukturen for prosjektet og
             eksperimenterte med hvordan HTML attributes og JS properties kunne
@@ -45,8 +46,6 @@ function ProjectPage() {
             vise frem og håndtere interaktive kort, inkludert bokmerking og
             snu-funksjonalitet.
           </p>
-
-          <img src={startImage} alt="Skjermbilde av SUPER Assessor" />
           <img src={startImage2} alt="SUPER Assessor database" />
         </ProjectSection>
 
