@@ -3,7 +3,10 @@ import { useInView } from "react-intersection-observer";
 import "./styles/projectSection.css"; 
 
 function ProjectSection({ index, setActive, children }) {
-  const { ref, inView } = useInView({ threshold: 0.5 });
+  const { ref, inView } = useInView({
+    threshold: 0.3,
+    triggerOnce: false,
+  });
 
   useEffect(() => {
     if (inView) {

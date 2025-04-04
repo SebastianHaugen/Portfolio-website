@@ -86,7 +86,6 @@ span:hover {
   color: #0056b3;
 }
 
-
 /* Responsive adjustments for mobile */
 @media (max-width: 768px) {
   .project {

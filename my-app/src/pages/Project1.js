@@ -23,7 +23,7 @@ function ProjectPage() {
       {/* Sections */}
       <div className="sections">
         <ProjectSection index={0} setActive={setActiveIndex}>
-          <h2>Første Del</h2>
+          <h2>Startfase</h2>
           <p>
             I starten av prosjektet fikk vi i oppgave å lage en digital versjon
             av SUPER Assessor – et kortspill utviklet av NTNU for å hjelpe

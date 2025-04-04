@@ -3,6 +3,7 @@ import { Outlet } from "react-router-dom";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import "./styles/layout.css";
+import FloatingLanguageSwitcher from "./FloatingLanguageSwitcher";
 
 function Layout() {
   return (
@@ -14,6 +15,8 @@ function Layout() {
         </main>
       </div>
       <Footer />
+
+      <FloatingLanguageSwitcher />
     </>
   );
 }
