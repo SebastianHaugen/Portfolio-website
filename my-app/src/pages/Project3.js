@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import ProjectSection from "../components/ProjectSection";
-import landingPage from "../assets/img/project3/landing-page.png";
-import reportPage from "../assets/img/project3/report-page.png";
-import coursePage from "../assets/img/project3/courses.png";
-import figmaPrototype from "../assets/img/project3/figma-prototype.png";
-import Fellesmodellen from "../assets/img/fellesmodellen.png";
+import landingPage from "../assets/img/project3/landing-page-min.webp";
+import reportPage from "../assets/img/project3/report-page-min.webp";
+import coursePage from "../assets/img/project3/courses-min.webp";
+import figmaPrototype from "../assets/img/project3/figma-prototype-min.webp";
+import Fellesmodellen from "../assets/img/fellesmodellen-min.webp";
 import { useTranslation } from "react-i18next";
 import "./styles/Project1.css";
 
@@ -48,7 +48,7 @@ function Project3() {
           <h2>{t("project3.header3.title")}</h2>
           <p>{t("project3.header3.p1")}</p>
           <p>{t("project3.header3.p2")}</p>
-          <img src={coursePage} alt="Skjermbilde fra e-læringsmodul" />
+          <img src={coursePage} alt="Skjermbilde fra e-læringsmodul" loading="lazy" />
         </ProjectSection>
       </div>
     </div>

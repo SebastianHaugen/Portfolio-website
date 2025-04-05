@@ -1,5 +1,5 @@
 import React from "react";
-import sebastian from "../assets/img/SebastianHaugen.jpg";
+import sebastian from "../assets/img/SebastianHaugen-min.webp";
 import { useTranslation } from "react-i18next";
 import "./styles/intro.css";
 

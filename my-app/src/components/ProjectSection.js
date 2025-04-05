@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
-import "./styles/projectSection.css"; 
+import "./styles/project-section.css"; 
 
 function ProjectSection({ index, setActive, children }) {
   const { ref, inView } = useInView({

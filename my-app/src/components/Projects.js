@@ -1,6 +1,6 @@
 import fullstack from "../assets/img/webp/full-stack-application-min.webp";
 import travel from "../assets/img/webp/travel-min.webp";
-import fellesmodellen from "../assets/img/fellesmodellen.png";
+import fellesmodellen from "../assets/img/fellesmodellen-min.webp";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import gitHub from "../assets/img/github-mark.png";

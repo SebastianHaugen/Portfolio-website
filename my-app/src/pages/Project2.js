@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import ProjectSection from "../components/ProjectSection";
-import travelStart from "../assets/img/project2/landing-page.png";
-import travelSurvey from "../assets/img/project2/video-page.png";
-import travelProto from "../assets/img/project2/budget-page.png";
-import figmaPrototype from "../assets/img/project2/figma-prototype.jpg";
-import mobileScreen from "../assets/img/project2/mobile-screen.png";
+import travelStart from "../assets/img/project2/landing-page-min.webp";
+import travelSurvey from "../assets/img/project2/video-page-min.webp";
+import travelProto from "../assets/img/project2/budget-page-min.webp";
+import figmaPrototype from "../assets/img/project2/figma-prototype-min.webp";
+import mobileScreen from "../assets/img/project2/mobile-screen-min.webp";
 import gitHub from "../assets/img/github-mark.png";
 import { useTranslation } from "react-i18next";
 import "./styles/Project1.css";

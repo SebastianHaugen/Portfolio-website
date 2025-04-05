@@ -1,15 +1,13 @@
-/* Container for all projects */
 .projects-container {
   max-width: 1200px;
   margin: 0 auto;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
 }
 
 .projects-container h2 {
   margin-bottom: 40px;
 }
 
-/* Each project card */
 .project {
   display: flex;
   align-items: center;
@@ -17,7 +15,6 @@
   margin-bottom: 60px;
 }
 
-/* Alternate the layout for variety */
 .project:nth-child(even) {
   flex-direction: row-reverse;
 }
@@ -33,7 +30,6 @@
   transition: transform 0.3s ease;
 }
 
-/* Styling for the text section */
 .project-text {
   flex: 1;
 }
@@ -51,14 +47,12 @@ span:hover {
   line-height: 1.6;
 }
 
-/* Styling for links */
 .project-links {
   margin-top: 10px;
   display: flex;
   gap: 10px;
 }
 
-/* Common styles for project-link buttons */
 .project-link {
   border-radius: 50%;
   display: flex;
@@ -70,7 +64,6 @@ span:hover {
   scale: 1.1;
 }
 
-/* Style for the links logos */
 .link-logos {
   width: 50px;
   height: auto;
@@ -78,12 +71,14 @@ span:hover {
 }
 
 .read-more-link {
-  color: #007bff;
+  color: #0056b3;
   cursor: pointer;
   text-decoration: underline;
+  font-weight: 600;
 }
+
 .read-more-link:hover {
-  color: #0056b3;
+  color: #003366;
 }
 
 /* Responsive adjustments for mobile */
@@ -95,5 +90,4 @@ span:hover {
   .project:nth-child(even) {
     flex-direction: column;
   }
-
 }

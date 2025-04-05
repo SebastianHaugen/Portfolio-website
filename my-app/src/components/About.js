@@ -15,9 +15,9 @@ function About() {
         <p>{t("about.description2")}</p>
       </div>
       <div className="image-collage">
-        <img src={gaustatoppen} alt="Toppen av Gaustatoppen, Norge" />
-        <img src={prague} alt="Praha Kirke Basilica of St. Ludmila" />
-        <img src={prague2} alt="Praha filmet fra avstand" />
+        <img src={gaustatoppen} alt="Toppen av Gaustatoppen, Norge" loading="lazy" />
+        <img src={prague} alt="Praha Kirke Basilica of St. Ludmila" loading="lazy" />
+        <img src={prague2} alt="Praha filmet fra avstand" loading="lazy" />
       </div>
     </div>
   );

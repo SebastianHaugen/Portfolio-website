@@ -66,7 +66,7 @@ function Nav() {
         <p className="nav-title">{t("nav.title")}</p>
       </Link>
 
-      <div className="hamburger">
+      <div className="hamburger" aria-label="Toggle navigation menu">
         <Hamburger toggled={isOpen} toggle={setIsOpen} />
       </div>
 
