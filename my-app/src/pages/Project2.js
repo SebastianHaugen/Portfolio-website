@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ProjectSection from "../components/ProjectSection";
 import travelStart from "../assets/img/project2/landing-page.png";
 import travelSurvey from "../assets/img/project2/video-page.png";
@@ -10,8 +10,12 @@ import "./styles/Project1.css";
 function Project2Page() {
   const [activeIndex, setActiveIndex] = React.useState(0);
 
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "auto" });
+  }, []);
+
   return (
-    <div className="project-container">
+    <div className="project-container" id="main-content">
       {/* Timeline */}
       <div className="timeline">
         <div className={`dot ${activeIndex === 0 ? "active" : ""}`} />
@@ -29,7 +33,7 @@ function Project2Page() {
             på universell utforming og god brukeropplevelse for alle, uavhengig
             av funksjonsevne. Jeg startet med å analysere brukerbehov og
             gjennomførte en liten spørreundersøkelse med personer som bruker
-            skjermleser og stemmestyring.
+            skjermleser.
           </p>
           <img
             src={travelStart}

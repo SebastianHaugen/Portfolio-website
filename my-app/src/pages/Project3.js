@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ProjectSection from "../components/ProjectSection";
 import landingPage from "../assets/img/project3/landing-page.png";
 import reportPage from "../assets/img/project3/report-page.png";
@@ -10,6 +10,10 @@ import "./styles/Project1.css"; // Gjenbruk stil
 function Project3() {
   const [activeIndex, setActiveIndex] = React.useState(0);
 
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "auto" });
+  }, []);
+
   return (
     <div className="project-container">
       <div className="timeline">
@@ -18,7 +22,7 @@ function Project3() {
         <div className={`dot ${activeIndex === 2 ? "active" : ""}`}></div>
       </div>
 
-      <div className="sections">
+      <div className="sections" id="main-content">
         <ProjectSection index={0} setActive={setActiveIndex}>
           <h2>Startfase</h2>
           <p>

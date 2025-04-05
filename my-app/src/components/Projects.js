@@ -9,7 +9,7 @@ function Projects() {
   const { t } = useTranslation();
 
   return (
-    <div className="projects-container" id="projects">
+    <div className="projects-container" id="main-content">
       <h2>{t("projects.header")}</h2>
 
       {/* Project 1 - SUPER Assessor */}
