@@ -1,3 +1,14 @@
+/* Container for all projects */
+.projects-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+}
+
+.projects-container h2 {
+  margin-bottom: 40px;
+}
+
 /* Each project card */
 .project {
   display: flex;
@@ -51,6 +62,8 @@ span:hover {
 .project-link {
   border-radius: 50%;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .project-link:hover {
@@ -64,11 +77,23 @@ span:hover {
   margin-right: 5px;
 }
 
+.read-more-link {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.read-more-link:hover {
+  color: #0056b3;
+}
+
 /* Responsive adjustments for mobile */
 @media (max-width: 768px) {
-    .project,
-    .project:nth-child(even) {
-      flex-direction: column;
-      flex-direction: column-reverse;
-    }
+  .project {
+    flex-direction: column;
   }
+
+  .project:nth-child(even) {
+    flex-direction: column;
+  }
+
+}

@@ -6,12 +6,12 @@ html {
 
 body {
   font-family: "futura", sans-serif;
-  font-size: 2.2rem;
+  font-size: 2rem;
   padding: 0;
   margin: 0;
 }
 
-.home-page {
+.layout-container {
   max-width: 1200px;
   margin: 0 auto;
   padding-left: 10px;
@@ -21,6 +21,22 @@ body {
 h2,
 h3 {
   color: #d2042d;
+}
+
+.project-github-link {
+  margin-top: 0.75rem;
+}
+
+.github-icon {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.github-icon:hover {
+  transform: scale(1.1);
+  opacity: 1;
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
@@ -40,5 +56,9 @@ h3 {
   p {
     font-size: 1.6rem;
     line-height: 1.4;
+  }
+
+  li {
+    font-size: 1.6rem;
   }
 }

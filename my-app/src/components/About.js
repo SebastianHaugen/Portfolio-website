@@ -10,8 +10,10 @@ function About() {
   return (
     <div className="about-container" id="about">
       <h2 className="about-title">{t("about.header")}</h2>
-      <p className="about-header">{t("about.description1")}</p>
-      <p>{t("about.description2")}</p>
+      <div className="about-text">
+        <p className="about-header">{t("about.description1")}</p>
+        <p>{t("about.description2")}</p>
+      </div>
       <div className="image-collage">
         <img src={gaustatoppen} alt="Toppen av Gaustatoppen, Norge" />
         <img src={prague} alt="Praha Kirke Basilica of St. Ludmila" />
