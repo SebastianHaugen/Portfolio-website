@@ -11,19 +11,17 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // Først send e-post til deg selv
     emailjs
       .sendForm(
         process.env.REACT_APP_EMAILJS_SERVICE_ID,
-        "template_qbbbsvk", // ← e-post til deg
+        "template_qbbbsvk",
         formRef.current,
         process.env.REACT_APP_EMAILJS_PUBLIC_KEY
       )
       .then(() => {
-        // Deretter send autosvar til brukeren
         emailjs.send(
           process.env.REACT_APP_EMAILJS_SERVICE_ID,
-          process.env.REACT_APP_EMAILJS_TEMPLATE_ID, // ← autosvar-template
+          process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
           {
             user_name: formRef.current.user_name.value,
             user_email: formRef.current.user_email.value,
@@ -31,7 +29,6 @@ function Contact() {
           process.env.REACT_APP_EMAILJS_PUBLIC_KEY
         );
 
-        // Vis bekreftelse og tøm skjema
         setIsSent(true);
         formRef.current.reset();
       })
@@ -47,21 +44,19 @@ function Contact() {
 
       <form ref={formRef} className="contact-form" onSubmit={sendEmail}>
         <label>
-          Navn:
+          {t("contact.name")}
           <input type="text" name="user_name" required />
         </label>
         <label>
-          E-post:
+          {t("contact.email")}
           <input type="email" name="user_email" required />
         </label>
         <label>
-          Melding:
+          {t("contact.message")}
           <textarea name="message" rows="5" required />
         </label>
-        <button type="submit">Send</button>
-        {isSent && (
-          <p className="success-msg">Takk! Meldingen din ble sendt</p>
-        )}
+        <button type="submit">{t("contact.send")}</button>
+        {isSent && <p className="success-msg">{t("contact.success")}</p>}
       </form>
     </div>
   );

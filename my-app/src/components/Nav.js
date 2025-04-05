@@ -82,7 +82,7 @@ function Nav() {
           </li>
           <li>
             <button
-              onClick={() => handleMenuItemClick("#projects")}
+              onClick={() => handleMenuItemClick("#main-content")}
               aria-label={t("nav.projects")}
             >
               {t("nav.projects")}

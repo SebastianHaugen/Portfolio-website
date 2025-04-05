@@ -21,19 +21,7 @@
 
     "project1": {
       "title": "SUPER Assessor – Fullstack Webapplikasjon",
-      "summary": "Utviklet som en del av et fullstack webutviklingskurs. SUPER Assessor hjelper lærere med å lage og evaluere vurderingsskjemaer gjennom et kortbasert spill. Bygget med MERN-stacken.",
-      "achievements": [
-        "Designet og implementerte et REST API ved bruk av Node.js og Express.",
-        "Bygde frontend med React for en responsiv brukeropplevelse.",
-        "Implementerte JWT-basert autentisering for sikker innlogging og øktstyring.",
-        "Utviklet en PDF-genereringsfunksjon for å eksportere vurderingsskjemaer."
-      ],
-      "learnings": [
-        "Fikk praktisk erfaring med MERN-stacken (MongoDB, Express, React, Node.js).",
-        "Forbedret forståelsen av API-design og dataflyt mellom frontend og backend.",
-        "Lærte hvordan man bygger en skalerbar og sikker autentiseringsløsning med tokens.",
-        "Forbedret samarbeidsevner ved bruk av GitHub for versjonskontroll og Agile prinsipper."
-      ]
+      "summary": "Utviklet som en del av et fullstack webutviklingskurs. SUPER Assessor hjelper lærere med å lage og evaluere vurderingsskjemaer gjennom et kortbasert spill. Bygget med MERN-stacken."
     },
 
     "project2": {
@@ -56,11 +44,87 @@
   "contact": {
     "header": "Kontakt",
     "description": "Hvis du vil kontakte meg, kan du sende en melding her:",
-    "email": "E-post: "
+    "name": "Navn:",
+    "email": "E-post:",
+    "message": "Melding:",
+    "send": "Send",
+    "success": "Takk! Meldingen din ble sendt"
   },
 
   "read": {
     "more": "Les mer",
     "less": "Les mindre"
+  },
+
+  "project1": {
+    "header1": {
+      "title": "Startfase",
+      "p1": "I starten av prosjektet fikk vi i oppgave å lage en digital versjon av SUPER Assessor et kortspill utviklet av NTNU for å hjelpe undervisere med å designe nye vurderingsformer. Her kan du se den fysiske versjonen av kortspillet",
+      "p2": "Målet var å bruke Web Components for å bygge gjenbrukbare kort-komponenter med støtte for dataoverføring, styling via custom properties, og interaksjon med Custom Events. Den første delen handlet om å lære React og API, mens den siste obligen der vi skulle lage en full stack applikason med MongoDB, Express JS, React og Node JS (MERN) ble gjort i grupper. Vi fikk også tilgang til designfiler og data fra Excel-arket som inneholdt informasjon om kortene, som vi kunne bruke i prosjektet. Hovedprosjekt var utviklet i samarbeid med 2 studenter fra NTNU.",
+      "p3": "Jeg startet med å sette opp strukturen for prosjektet og eksperimenterte med hvordan HTML attributes og JS properties kunne brukes til å dynamisk generere kortene. Jeg brukte designfilene og data fra Excel-arket til å skape en komponentstruktur som både kunne vise frem og håndtere interaktive kort, inkludert bokmerking og snu-funksjonalitet.",
+      "p4": "Her er et bilde av databasen som vi brukte for å dynamisk lage kortene. Det var totalt 86 kort i databasen."
+    },
+    "header2": {
+      "title": "Implementering og design",
+      "p1": "Fullstack-prosjektet bygde videre på de tidligere obligatoriske oppgavene vi hadde gjennom semesteret. Den første delen med Web Components og API-løsninger dannet grunnmuren, og vi fikk mulighet til å gjenbruke og forbedre mye av koden vi allerede hadde laget. For å planlegge hvordan vi skulle utvikle en komplett løsning i gruppen, lagde vi Figma-prototyper og diskuterte brukerflyt, komponentstruktur og designvalg. Dette ga oss en klar retning før vi gikk videre med implementeringen."
+    },
+    "header3": {
+      "title": "Sluttfase",
+      "p1": "I slutten av prosjektet fokuserte vi på å videreutvikle og ferdigstille en komplett versjon av SUPER Assessor v2.0 som en full-stack applikasjon. Her handlet det ikke bare om å implementere de siste kravene, men også om å sikre at tidligere funksjonalitet var stabil, sikker og godt dokumentert.",
+      "listIntro": "Vi implementerte blant annet:",
+      "list": [
+        "Autentisering for ulike brukertyper (lærer, admin og besøkende).",
+        "Spillflyt der lærere kan trekke kort fra ulike kortstokker og bygge vurderingsopplegg.",
+        "Mulighet for å lagre, vurdere og dele vurderingsopplegg.",
+        "Generering av PDF-er med for- og bakside av kort, tilpasset kort-størrelse og klar for utskrift.",
+        "En utvidet favourites-funksjon med localStorage for bokmerking. En forbedret brukeropplevelse og responsivt design."
+      ],
+      "p2": "Vi la også vekt på backend-funksjonalitet, blant annet REST API med god struktur, sikkerhetstiltak og dokumentasjon via Swagger. For frontend brukte vi hovedsaklig React, men hadde krav om å bruke Web Components fra tidligere oblig, men med forbedret struktur og fleksibilitet. Prosjektet ble avsluttet med testing og kvalitetssikring, der vi sikret at alle roller (besøkende, lærer og admin) kunne utføre sine oppgaver uten feil. Vi har jobbet tett i team og fordelt ansvaret noe som bidro til en god gjennomføring og forståelse for hvordan man bygger moderne webapplikasjoner i praksis."
+    }
+  },
+
+  "project2": {
+    "header1": {
+      "title": "Startfase",
+      "p1": "Målet med dette prosjektet var å utvikle en tilgjengelig og responsiv reise-nettside for personer i alderen 18–35 år. Fokus lå på universell utforming og god brukeropplevelse for alle, uavhengig av funksjonsevne. Jeg startet med å analysere brukerbehov og gjennomførte en liten spørreundersøkelse med personer som bruker skjermleser."
+    },
+    "header2": {
+      "title": "Design og utvikling",
+      "p1": "For å sikre tilgjengelighet og brukervennlighet, startet jeg med å designe et enkelt og strukturert oppsett i Figma. Jeg tok hensyn til WCAG-retningslinjene, og testet tidlig med ulike hjelpemidler som skjermleser og tastaturnavigasjon.",
+      "p2": "Jeg la vekt på semantisk HTML, tydelige ARIA-labels, skip-to-main funksjon, og høy kontrast. Layouten er bevisst enkel og konsistent mellom sidene for å gjøre navigasjonen intuitiv. I tillegg ble det brukt media queries og relative enheter for å sikre god responsivitet."
+    },
+    "header3": {
+      "title": "Testing og sluttfase",
+      "p1": "I sluttfasen fokuserte jeg på å teste og forbedre tilgjengeligheten. Jeg brukte blant annet WAVE-verktøyet og WebAIM Contrast Checker for fargekontrast, og testet med skjermlesere som Windows Narrator og ChromeVox. Feedback fra medstudenter førte til forbedringer i blant annet fokushåndtering og lenketekst.",
+      "p2": "Et konkret eksempel var å endre utydelige lenker som \"Trykk her\" til mer beskrivende varianter som \"Les om Paris\". Jeg la også til flere semantiske HTML-elementer og ARIA-attributter for å bedre skjermleseropplevelsen.",
+      "list": [
+        "Skjermlesertesting og iterasjoner",
+        "Closed captions og transkripsjoner for media",
+        "Tilgjengelige popup-vinduer og skjemaer",
+        "Tastaturnavigasjon uten feller",
+        "Responsivt design på alle skjermstørrelser"
+      ]
+    }
+  },
+
+  "project3": {
+    "header1": {
+      "title": "Startfase",
+      "p1": "Bachelorprosjektet startet i 2024 med fordypningsprosjekt emne, der vi fant på BeNet prosjektet til HelseInn med \"Felles modell for tjenesteutvikling i Helsefellesskap Innlandet\". Jeg og 2 andre studenter har jobbet sammen i dette prosjektet, mens mesteparten av jobben har blitt gjort i bachelorprosjektet gjorde vi mye av startfasen i fordypningsemnet med en konkurrentanalyse av andre e-læringplattformer.",
+      "p2": "Prosjektet ble startet for å gjøre opplæring i Fellesmodellen mer tilgjengelig for ansatte i helsesektoren. Vi gjennomførte intervjuer med ansatte fra helsesektoren og kommunenen for å få innsikt i hvilke utfordringer brukerne møter i praksis. Målet var å forstå hvordan et digitalt kurs kunne bidra til økt forståelse og enklere implementering av Fellesmodellen i det daglige arbeidet.",
+      "p3": "Vi analyserte eksisterende opplæringsmateriell og gjennomførte en behovsanalyse. Basert på dette definerte vi mål for e-læringsløsningen, med særlig fokus på brukervennlighet, tilpasning til ulike faggrupper og en god læringsstruktur."
+    },
+    "header2": {
+      "title": "Design og utvikling",
+      "p1": "Basert på innsikten fra startfasen utviklet vi interaktive prototyper i Figma og definerte en modulstruktur for innholdet. Vi ønsket at kursplattformen skulle være enkel å navigere, visuelt oversiktlig og kunne tilpasses ulike roller i helsesektoren.",
+      "p2": "",
+      "p3": "I tillegg til e-læringskurset, som er hovedfokuset i oppgaven vår, ble vi spurt om å utvikle rapportskjemaer tilpasset Fellesmodellen. Vi valgte å takke ja til dette, men prioriterte først å ferdigstille alt det nødvendige knyttet til e-læringskurset, ettersom det utgjør kjernen i prosjektet vårt.",
+      "p4": "Her er et skjermbilde av landingssiden som møter brukeren ved første besøk på Fellesmodellens nettsiden."
+    },
+    "header3": {
+      "title": "Sluttfase",
+      "p1": "Prosjektet nærmer seg slutten, men nettsiden og e-læringskursene er fortsatt under utvikling. Vi har laget et system for å skape e-læringskurs og målet er 5 moduler. Vi har blitt ferdig med brukertesting sammen med ansatte i helsetjenesten. Testingen har gitt verdifull innsikt i hvordan brukerne forstår innholdet, navigerer i plattformen og opplever det pedagogiske oppsettet.",
+      "p2": "Innsikten fra testingen vil brukes aktivt i videreutviklingen av modulene i e-læringskurset for Fellesmodellen. Vi dokumenterer også prosessen i en bacheloroppgave som beskriver arbeidet vi har gjort i prosjektet. Endelig leveringsfrist for prosjektet er satt til 15. mai 2024."
+    }
   }
 }
