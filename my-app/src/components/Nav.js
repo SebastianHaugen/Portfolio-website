@@ -61,13 +61,14 @@ function Nav() {
 
   return (
     <nav className="nav">
+      <Link to="/" className="logo" aria-label={t("nav.home")}>
+        <h1>Sebastian</h1>
+        <p className="nav-title">{t("nav.title")}</p>
+      </Link>
+
       <div className="hamburger">
         <Hamburger toggled={isOpen} toggle={setIsOpen} />
       </div>
-      <Link to="/" className="logo" aria-label={t("nav.home")}>
-        <h1>Sebastian</h1>
-        <p>{t("nav.title")}</p>
-      </Link>
 
       <div className={`menu ${isOpen ? "open" : ""}`}>
         <ul>

@@ -90,6 +90,10 @@ span:hover {
 @media (max-width: 768px) {
   .project {
     flex-direction: column;
-    text-align: center;
   }
+
+  .project:nth-child(even) {
+    flex-direction: column;
+  }
+
 }
