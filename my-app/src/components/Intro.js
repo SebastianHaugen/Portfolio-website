@@ -8,7 +8,7 @@ function Intro() {
   const { t } = useTranslation();
 
   return (
-    <div className="intro" id="top">
+    <div className="intro-container" id="top">
       <div className="intro-text">
         <h1 className="intro-header">{t("intro.hello")}</h1>
         <p>

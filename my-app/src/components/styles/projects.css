@@ -90,4 +90,11 @@ span:hover {
   .project:nth-child(even) {
     flex-direction: column;
   }
+
+  .project img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
 }
