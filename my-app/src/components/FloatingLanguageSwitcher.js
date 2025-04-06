@@ -7,8 +7,10 @@ const FloatingLanguageSwitcher = () => {
   const { i18n } = useTranslation();
   const [language, setLanguage] = useState(i18n.language);
 
+  // Allow the user to toggle between languages
   const toggleLanguage = () => {
     const newLanguage = language === "en" ? "no" : "en";
+    // Update the state and change the language
     setLanguage(newLanguage);
     i18n.changeLanguage(newLanguage);
   };

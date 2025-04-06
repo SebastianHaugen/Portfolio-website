@@ -4,10 +4,11 @@ import { useTranslation } from "react-i18next";
 import "./styles/intro.css";
 
 function Intro() {
+  // Using translation from the locales folder to get the text in the correct language
   const { t } = useTranslation();
 
   return (
-    <div className="intro" id="top">
+    <div className="intro-container" id="top">
       <div className="intro-text">
         <h1 className="intro-header">{t("intro.hello")}</h1>
         <p>

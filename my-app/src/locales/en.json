@@ -35,8 +35,9 @@
 
   "about": {
     "header": "About",
-    "description1": "I am a developer and a designer who has studied web development at NTNU Gjøvik for the past 3 years. I will graduate with a bachelor's degree in 2025.",
-    "description2": "I am 23 years old and come from Bødalen in Asker. Technology and coding have always been a passion of mine. In 2022, I started studying web development at NTNU and quickly realized that this was something I really wanted to work with. I enjoy learning new things and challenging myself. It is also important for me to stay active and I spend a lot of time at the gym. In addition, I love to travel and experience new places and cultures."
+    "description1": "I am a developer and a designer who has studied web development at NTNU Gjøvik for the past 3 years. I will graduate with a bachelor's degree in june 2025.",
+    "description2": "I am 23 years old and come from Bødalen, a town outside Asker. Technology has been an interest of mine since I was young and I started studying web development in 2022. I have found that I enjoy backend development the most, especially working with APIs and databases. At the same time, I enjoy working with full stack and find it exciting to see how everything fits together. I like solving challenges and building systems that are both efficient and user-friendly, and I like creating solutions that actually make a difference.",
+    "description3": "In my free time I enjoy working out and being social. I enjoy traveling and experiencing new cultures. I am always looking for opportunities to develop myself."
   },
 
   "contact": {
