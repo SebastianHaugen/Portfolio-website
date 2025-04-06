@@ -13,6 +13,9 @@ function Project2Page() {
   const [activeIndex, setActiveIndex] = React.useState(0);
   const { t } = useTranslation();
 
+  // Scroll to top when the component mounts
+  // This is useful when navigating to this page from another page
+  // to ensure the user sees the top of the page first
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "auto" });
   }, []);
@@ -61,11 +64,7 @@ function Project2Page() {
               rel="noopener noreferrer"
               aria-label="View project on GitHub"
             >
-              <img
-                src={gitHub}
-                alt="GitHub icon"
-                className="github-icon"
-              />
+              <img src={gitHub} alt="GitHub icon" className="github-icon" />
             </a>
           </div>
           <img src={mobileScreen} alt="Example of mobile screen view" />

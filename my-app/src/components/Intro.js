@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import "./styles/intro.css";
 
 function Intro() {
+  // Using translation from the locales folder to get the text in the correct language
   const { t } = useTranslation();
 
   return (

@@ -29,7 +29,7 @@ function Nav() {
         if (section) {
           section.scrollIntoView({ behavior: "smooth" });
         }
-      }, 300); // adjust this timing if needed
+      }, 300);
     } else {
       const section = document.querySelector(targetId);
       if (section) {
@@ -66,8 +66,12 @@ function Nav() {
         <p className="nav-title">{t("nav.title")}</p>
       </Link>
 
-      <div className="hamburger" aria-label="Toggle navigation menu">
-        <Hamburger toggled={isOpen} toggle={setIsOpen} />
+      <div className="hamburger">
+        <Hamburger
+          toggled={isOpen}
+          toggle={setIsOpen}
+          label={isOpen ? "Close menu" : "Open menu"}
+        />
       </div>
 
       <div className={`menu ${isOpen ? "open" : ""}`}>

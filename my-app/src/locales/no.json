@@ -37,8 +37,9 @@
 
   "about": {
     "header": "Om",
-    "description1": "Jeg er en utvikler og en designer som har studert webutvikling ved NTNU Gjøvik de siste 3 årene. Jeg er ferdig med bachelorgraden min i 2025.",
-    "description2": "Jeg er 23 år gammel og kommer fra Bødalen i Asker. Teknologi og koding har alltid vært en lidenskap for meg. I 2022 begynte jeg på studiet webutvikling ved NTNU og innså raskt at dette var noe jeg virkelig ønsket å jobbe med. Jeg liker å lære nye ting og utfordre meg selv. Det er også viktig for meg å holde meg aktiv, og jeg bruker mye tid på treningssenteret. I tillegg elsker jeg å reise og oppleve nye steder og kulturer."
+    "description1": "Jeg er en utvikler som har studert webutvikling ved NTNU Gjøvik de siste 3 årene. Jeg er ferdig med bachelorgraden min i juni 2025.",
+    "description2": "Jeg er 23 år gammel og kommer fra Bødalen et tettsted utenfor Asker. Teknologi har vært en interesse for meg siden jeg var ung og jeg begynte å studere webutvikling i 2022. Gjennom studiet har jeg funnet ut at jeg trives best med backend-utvikling, spesielt å jobbe med API-er og databaser. Samtidig liker jeg å jobbe med fullstack og synes det er spennende å se hvordan alt henger sammen. Jeg liker å løse utfordringer og bygge systemer som både er effektive og brukervennlige og jeg syns det er spennende å skape løsninger som faktisk gjør en forskjell.",
+    "description3": "På fritiden liker jeg å trene og være sosial. Jeg like å reise og oppleve nye kulturer. Jeg ser alltid etter muligheter for å utvikle meg selv. "
   },
 
   "contact": {

@@ -4,10 +4,15 @@ import { useTranslation } from "react-i18next";
 import "./styles/contact.css";
 
 function Contact() {
-  const { t } = useTranslation();
   const formRef = useRef();
   const [isSent, setIsSent] = useState(false);
 
+  // Using translation from json file in locales folder
+  const { t } = useTranslation();
+
+  // Function to send email using EmailJS
+  // The function is called when the form is submitted
+  // I send 2 emails, one to the user and one to me
   const sendEmail = (e) => {
     e.preventDefault();
 

@@ -1,4 +1,4 @@
-import gaustatoppen from "../assets/img/webp/gaustatoppen-min.webp";
+import gaustatoppen from "../assets/img/webp/gaustatoppen.webp";
 import prague from "../assets/img/webp/prague-min.webp";
 import prague2 from "../assets/img/webp/prague2-min.webp";
 import { useTranslation } from "react-i18next";
@@ -13,6 +13,7 @@ function About() {
       <div className="about-text">
         <p className="about-header">{t("about.description1")}</p>
         <p>{t("about.description2")}</p>
+        <p>{t("about.description3")}</p>
       </div>
       <div className="image-collage">
         <img src={gaustatoppen} alt="Toppen av Gaustatoppen, Norge" loading="lazy" />

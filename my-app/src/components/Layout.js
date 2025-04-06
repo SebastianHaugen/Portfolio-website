@@ -13,7 +13,7 @@ function Layout() {
 
   return (
     <>
-      {/* Skip to main content link */}
+      {/* Skip to main content link for accessibility */}
       {!isProjectPage && (
         <a className="skip-main" href="#main-content" tabIndex="0">
           Skip to main content
