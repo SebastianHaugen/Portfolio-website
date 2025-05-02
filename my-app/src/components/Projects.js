@@ -59,6 +59,9 @@ function Projects() {
       <div className="project">
         <div className="project-content">
           <img src={fellesmodellen} alt={t("projects.project3.title")} />
+          <div className="project-github-link">
+          <a href="https://idg3920-production-8276.up.railway.app/" target="_blank" rel="noreferrer">{t("projects.project3.link")}</a>
+          </div>
         </div>
         <div className="project-text">
           <h3>{t("projects.project3.title")}</h3>
