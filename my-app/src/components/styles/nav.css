@@ -26,6 +26,13 @@
   text-align: center;
 }
 
+.logo h1:hover {
+  scale: 1.05;
+  transition: scale 0.2s ease in-out;
+  text-decoration: underline;
+  text-decoration-color: #d2042d;
+}
+
 .menu ul {
   display: flex;
   list-style: none;
@@ -50,6 +57,7 @@
 
 .menu ul li button:hover {
   color: #d2042d;
+  text-decoration: underline;
 }
 
 .hamburger {

@@ -3,28 +3,7 @@
   margin-bottom: 6rem;
 }
 
-.project-image {
-  width: 100%;
-  max-width: 700px;  
-  height: auto;
-  border-radius: 12px;
-  display: block;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.project-image:hover {
-  transform: scale(1.02);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
-}
-
-
 @media (max-width: 768px) {
-  .project-image {
-    margin-top: 1.5rem;
-    border-radius: 8px;
-  }
-
   .project-section {
     min-height: auto;
     padding: 0;

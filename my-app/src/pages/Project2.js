@@ -57,6 +57,7 @@ function Project2Page() {
               )
             )}
           </ul>
+          <img src={mobileScreen} alt="Example of mobile screen view" />
           <div className="project-github-link">
             <a
               href="https://github.com/SebastianHaugen/accessible-travel-website"
@@ -67,7 +68,6 @@ function Project2Page() {
               <img src={gitHub} alt="GitHub icon" className="github-icon" />
             </a>
           </div>
-          <img src={mobileScreen} alt="Example of mobile screen view" />
         </ProjectSection>
       </div>
     </div>
