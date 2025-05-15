@@ -42,9 +42,8 @@ function Project3() {
           <p>{t("project3.header2.p2")}</p>
           <img src={figmaPrototype} alt="Prototype av figma" />
           <img src={reportPage} alt="Interaksjonsflyt for kurs" />
-          <p>{t("project3.header2.p3")}</p>
           <img src={landingPage} alt="Prototype av e-læringsplattform" />
-          <p>{t("project3.header2.p4")}</p>
+          <p>{t("project3.header2.p3")}</p>
         </ProjectSection>
 
         <ProjectSection index={2} setActive={setActiveIndex}>

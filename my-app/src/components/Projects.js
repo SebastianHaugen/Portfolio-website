@@ -12,8 +12,26 @@ function Projects() {
   return (
     <div className="projects-container" id="main-content">
       <h2>{t("projects.header")}</h2>
+      
+      {/* Project 1 - Bachelor Project */}
+      <div className="project">
+        <div className="project-content">
+          <img src={fellesmodellen} alt={t("projects.project3.title")} />
+          <div className="project-github-link">
+          <a className="read-more-link" href="https://idg3920-production-8276.up.railway.app/" target="_blank" rel="noreferrer">{t("projects.project3.link")}</a>
+          </div>
+        </div>
+        <div className="project-text">
+          <h3>{t("projects.project3.title")}</h3>
+          <p>{t("projects.project3.summary")}</p>
+          <Link to="/project/3" className="read-more-link">
+            {t("read.more")}
+          </Link>{" "}
+          {/* Link to Project 3 detail page */}
+        </div>
+      </div>
 
-      {/* Project 1 - SUPER Assessor */}
+      {/* Project 2 - SUPER Assessor */}
       <div className="project">
         <div className="project-content">
           <img src={fullstack} alt={t("projects.project1.title")} />
@@ -28,7 +46,7 @@ function Projects() {
         </div>
       </div>
 
-      {/* Project 2 - Travel Website */}
+      {/* Project 3 - Travel Website */}
       <div className="project">
         <div className="project-content">
           <img src={travel} alt={t("projects.project2.title")} />
@@ -52,24 +70,6 @@ function Projects() {
           <Link to="/project/2" className="read-more-link">
             {t("read.more")}
           </Link>
-        </div>
-      </div>
-
-      {/* Project 3 - Bachelor Project */}
-      <div className="project">
-        <div className="project-content">
-          <img src={fellesmodellen} alt={t("projects.project3.title")} />
-          <div className="project-github-link">
-          <a href="https://idg3920-production-8276.up.railway.app/" target="_blank" rel="noreferrer">{t("projects.project3.link")}</a>
-          </div>
-        </div>
-        <div className="project-text">
-          <h3>{t("projects.project3.title")}</h3>
-          <p>{t("projects.project3.summary")}</p>
-          <Link to="/project/3" className="read-more-link">
-            {t("read.more")}
-          </Link>{" "}
-          {/* Link to Project 3 detail page */}
         </div>
       </div>
     </div>
