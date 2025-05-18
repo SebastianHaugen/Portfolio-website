@@ -19,7 +19,7 @@
 
     "project1": {
       "title": "The SUPER Assessor",
-      "summary": "Developed as a part of the full-stack web development course in 2024, the project was developed with 2 students from BWU. The application helps teachers create and evaluate assessment forms using a card-based game. Application is built using the MERN stack."
+      "summary": "Developed as a part of the full-stack web development course in 2024, the project was developed with 2 students from my class. The application helps teachers create and evaluate assessment forms using a card-based game. Application is built using the MERN stack."
     },
 
     "project2": {
@@ -29,16 +29,16 @@
 
     "project3": {
       "title": "E-Learning Platform for the Shared Model",
-      "summary": "For the bachelor's project we developed an e-learning platform for the Shared Model. Me and 2 other students worked in collaboration with Helseinn and Helsefelleskapet Innlandet. The goal was to make training in the shared model in the healthcare and municipal sector more accessible and effective through user-friendly design, interactive modules, and research-based content.",
+      "summary": "For the bachelor's project we developed an e-learning platform for the Shared Model. Me and 2 other students worked in collaboration with Helseinn and Helsefelleskapet Innlandet and the goal was to make training in the shared model in the healthcare and municipal sector in Innlandet more accessible and effective through user-friendly design, interactive modules, and research-based content.",
       "link": "Shared Model Website"
     }
   },
 
   "about": {
     "header": "About",
-    "description1": "I am a developer and a designer who has studied web development at NTNU Gjøvik for the past 3 years. I will graduate with a bachelor's degree in june 2025.",
-    "description2": "I am 23 years old and come from Bødalen, a town outside Asker. Technology has been an interest of mine since I was young and I started studying web development in 2022. I have found that I enjoy backend development the most, especially working with APIs and databases. At the same time, I enjoy working with full stack and find it exciting to see how everything fits together. I like solving challenges and building systems that are both efficient and user-friendly, and I like creating solutions that actually make a difference.",
-    "description3": "In my free time I enjoy working out and being social. I enjoy traveling and experiencing new cultures. I am always looking for opportunities to develop myself."
+    "description1": "I am a developer who has studied web development at NTNU Gjøvik for the past 3 years. I will graduate with a bachelor's degree in june 2025.",
+    "description2": "I am 23 years old and come from Bødalen, a town outside Asker. Technology has been an interest of mine since I was young and I started studying web development in 2022. I have found that I enjoy backend development the most, especially working with APIs and databases. At the same time, I enjoy working with full-stack and find it exciting to see how everything fits together. I like solving challenges and building systems that are both efficient and user-friendly, and I like creating solutions that actually make a difference.",
+    "description3": "In my free time I enjoy working out and being social. I enjoy traveling and experiencing new cultures and i'm always looking for opportunities to develop myself."
   },
 
   "contact": {
@@ -59,17 +59,17 @@
   "project1": {
     "header1": {
       "title": "Introduction",
-      "p1": "At the beginning of the project, we were tasked with creating a digital version of SUPER Assessor, a card game developed at NTNU to help educators design new forms of assessment. Here you can see the physical version of the game",
-      "p2": "The goal was to use Web Components to build reusable card components with support for data transfer, styling via custom properties, and interaction using Custom Events. The first part focused on learning React and APIs, while the final assignment, where we built a full-stack application using MongoDB, Express JS, React, and Node JS (MERN), was done in groups. We also got access to design files and an Excel sheet containing card data that we could use in the project. The main project was developed in collaboration with two other NTNU students.",
+      "p1": "At the beginning of the project, we were tasked with creating a digital version of SUPER Assessor, a card game developed at NTNU to help educators design new forms of assessment. This is the physical version of the game that we will digitalize",
+      "p2": "The goal was to use web components to build reusable card components with support for data transfer, styling via custom properties, and interaction using custom events. The first part focused on learning React and APIs, while the final assignment, where we built a full-stack application using the MERN stack (MongoDB, ExpressJS, React, and NodeJS)  The final assignment was in groups and i worked with 2 other web development students. We also got access to design files and an Excel sheet containing card data that we could use in the project.",
       "p3": "I started by setting up the structure of the project and experimenting with how HTML attributes and JS properties could be used to dynamically generate the cards. I used the design files and data from the Excel sheet to create a component structure that could display and handle interactive cards, including bookmarking and flip functionality.",
-      "p4": "Here is an image of the database we used to dynamically generate the cards. There were a total of 86 cards in the database."
+      "p4": "This is the Excel database that we used to dynamically generate the cards. There were a total of 86 cards in the database."
     },
     "header2": {
-      "title": "Implementation and design",
-      "p1": "The full-stack project was built on previous mandatory assignments we had throughout the semester. The first part with Web Components and API solutions formed the foundation, and we had the opportunity to reuse and improve much of the code we had already created. To plan how we would develop a complete solution as a group, we created Figma prototypes and discussed user flow, component structure, and design choices. This gave us a clear direction before moving on with the implementation."
+      "title": "Design",
+      "p1": "The full-stack project was built on previous assignments that we had throughout the semester. The first part with web components and API solutions formed the foundation, and we had the opportunity to reuse and improve much of the code we had already created. To plan how we would develop a complete full-stack application as a group, we created Figma prototypes and discussed user flow, component structure, and design choices. This gave us a clear direction before moving on with the implementation."
     },
     "header3": {
-      "title": "Final results",
+      "title": "Implementation and final results",
       "p1": "In the final part of the project, we focused on further developing and completing a full version of SUPER Assessor v2.0 as a full-stack application. This was not only about implementing the final requirements, but also about ensuring that earlier functionality was stable, secure, and well-documented.",
       "listIntro": "We implemented, among other things:",
       "list": [
@@ -110,21 +110,21 @@
   "project3": {
     "header1": {
       "title": "Introduction",
-      "p1": "The bachelor's project began in 2024 as part of the course In-depth project. We worked together with Helseinn for the project 'Felles modell for tjenesteutvikling i Helsefellesskap Innlandet'. Me and two other students started working on the insight and research part through a competitor analysis of existing e-learning platforms.",
+      "p1": "The bachelor's project began in 2024 as part of the course In-depth project. We worked together with Helseinn for the project 'Felles modell for tjenesteutvikling i Helsefellesskap Innlandet'. Me and 2 other students started working on the insight and research part through a competitor analysis of existing e-learning platforms.",
       "p2": "The project was started to make training in the Shared Model more accessible for employees in healthcare and municipal sectors in the Innlandet region. We conducted interviews with the target group to learn about the challenges they face when using e-learning platforms. The aim was to understand how an e-learning course could improve understanding and the implementation of the Shared Model in practice.",
-      "p3": "We looked at literature and theories related to the pedagogical part of learning and motivation and based on this, we defined clear goals for the e-learning course, with a focus on usability, adaptability, effective learning, and user-friendliness."
+      "p3": "We looked at literature and theories related to the pedagogical part of learning and motivation. Based on this, we defined clear goals for the e-learning course, with a focus on usability, adaptability, effective learning, and user-friendliness."
     },
     "header2": {
       "title": "Design and development",
-      "p1": "After conducting interviews and a literature review, we started prototyping the e-learning course. We used Figma to create a prototype of the course, which was then tested with users. The feedback was used to improve the design and functionality of the course.",
+      "p1": "We started prototyping the e-learning course. We used Figma to create 3 different prototype of the course. 1 prototype was focused on text-based learning, which is traditional classroom learning. The 2 prototypes focuses on interactive learning, with quizzes and drag-and-drop questions. The last prototype focuses on audio and video-based learning, where the participant is presented with a short video explaining the content. We tested all the prototypes with the target group to find out which they preferred and used the insight to build the final course.  The feedback was used to improve the design and functionality of the course.",
       "p2": "",
-      "p3": "In addition to the e-learning course, which was our main focus, the project owner asked us to create a form for creating reports for the Shared Model. Each step of the Shared Model has reports that has to be sent to Strategic Collaboration Comittee (SSU) we completed the e-learning course first and made, before we created the forms. ",
+      "p3": "After prototyping the course and finishing the research questions after interviews with the target group. We had to make a decision on how we should create the courses for the Shared Model learning platform. We could use existing solutions that are very popular such as H5P or open eDX, this would reduce development time and make it easier to implement the course modules. We spent some time discussing it, but decided on creating a custom course builder because we found the existing solutions lacking and it was hard to customize it to our liking. Creating a custom course builder required extra development, but it gives us full control over the design and means we have complete ownership of the system.",
       "p4": "Screenshot of the landing page that greets users when they first access the Shared Model's page."
     },
     "header3": {
       "title": "Final results",
-      "p1": "The project is complete, the Shared Model learning platform has finished development, but the e-learning modules are still under development. We have finish creating the first e-learning module and conducted user testing of the Shared Model learning platform with the target group. The testing has given us valuable insight into how users understand the content, navigate the platform, and experience the course structure. Based on the user testing we have fixed numerous issues.",
-      "p2": "The feedback has been used to improve the e-learning modules. We are documenting the process in our bachelor thesis report. The final project deadline was May 15, 2025."
+      "p1": "The project is complete, the Shared Model learning platform has finished development, but the e-learning modules are still under development. The first e-learning module has been created and we have conducted user testing of the Shared Model learning platform with the target group. The testing has given us valuable insight into how users understand the content, navigate the platform, and experience the course structure. Based on the user testing we have fixed numerous issues.",
+      "p2": "The feedback has been used to improve the Shared Model learning platform and we are documenting the process in our bachelor thesis report. The final project deadline was May 15, 2025."
     }
   }
 }
