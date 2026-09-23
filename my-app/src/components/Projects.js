@@ -1,78 +1,83 @@
+import maze from "../assets/img/webp/maze-min.webp";
+import pointcloud from "../assets/img/webp/pointcloud-min.webp";
+import fellesmodellen from "../assets/img/fellesmodellen-min.webp";
 import fullstack from "../assets/img/webp/full-stack-application-min.webp";
 import travel from "../assets/img/webp/travel-min.webp";
-import fellesmodellen from "../assets/img/fellesmodellen-min.webp";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-import gitHub from "../assets/img/github-mark.png";
 import "./styles/projects.css";
+
+// Order of projects on the front page. "page" links to a detail page, "links" to external sites
+const projects = [
+  { key: "project4", img: maze, links: [{ href: "https://github.com/ThomasHeim11/SHREK-HRM", label: "projects.github" }] },
+  { key: "project5", img: pointcloud, links: [{ href: "https://github.com/SebastianHaugen/ACIT4030-assignment1", label: "projects.github" }] },
+  {
+    key: "project3",
+    img: fellesmodellen,
+    contain: true,
+  },
+  { key: "project1", img: fullstack },
+  {
+    key: "project2",
+    img: travel,
+    links: [
+      {
+        href: "https://github.com/SebastianHaugen/accessible-travel-website",
+        label: "projects.github",
+      },
+    ],
+  },
+];
 
 function Projects() {
   const { t } = useTranslation();
 
   return (
-    <div className="projects-container" id="main-content">
-      <h2>{t("projects.header")}</h2>
-      
-      {/* Project 1 - Bachelor Project */}
-      <div className="project">
-        <div className="project-content">
-          <img src={fellesmodellen} alt={t("projects.project3.title")} />
-          <div className="project-github-link">
-          <a className="read-more-link" href="https://idg3920-production-8276.up.railway.app/" target="_blank" rel="noreferrer">{t("projects.project3.link")}</a>
-          </div>
-        </div>
-        <div className="project-text">
-          <h3>{t("projects.project3.title")}</h3>
-          <p>{t("projects.project3.summary")}</p>
-          <Link to="/project/3" className="read-more-link">
-            {t("read.more")}
-          </Link>{" "}
-          {/* Link to Project 3 detail page */}
-        </div>
-      </div>
+    <section className="projects-container" id="main-content">
+      <h2 className="section-title">{t("projects.header")}</h2>
 
-      {/* Project 2 - SUPER Assessor */}
-      <div className="project">
-        <div className="project-content">
-          <img src={fullstack} alt={t("projects.project1.title")} />
-        </div>
-        <div className="project-text">
-          <h3>{t("projects.project1.title")}</h3>
-          <p>{t("projects.project1.summary")}</p>
-          <Link to="/project/1" className="read-more-link">
-            {t("read.more")}
-          </Link>{" "}
-          {/* Link to Project 1 detail page */}
-        </div>
-      </div>
-
-      {/* Project 3 - Travel Website */}
-      <div className="project">
-        <div className="project-content">
-          <img src={travel} alt={t("projects.project2.title")} />
-
-          {/* GitHub link under image */}
-          <div className="project-github-link">
-            <a
-              href="https://github.com/SebastianHaugen/accessible-travel-website"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="View project on GitHub"
-            >
-              <img src={gitHub} alt="GitHub icon" className="github-icon" />
-            </a>
-          </div>
-        </div>
-
-        <div className="project-text">
-          <h3>{t("projects.project2.title")}</h3>
-          <p>{t("projects.project2.summary")}</p>
-          <Link to="/project/2" className="read-more-link">
-            {t("read.more")}
-          </Link>
-        </div>
-      </div>
-    </div>
+      <ul className="project-list">
+        {projects.map(({ key, img, page, contain, links = [] }) => {
+          const tags = t(`projects.${key}.tags`, { returnObjects: true });
+          return (
+            <li className="project" key={key}>
+              <img
+                className={contain ? "contain" : undefined}
+                src={img}
+                alt={t(`projects.${key}.imageAlt`)}
+                loading="lazy"
+              />
+              <div className="project-text">
+                <h3>{t(`projects.${key}.title`)}</h3>
+                <p>{t(`projects.${key}.short`)}</p>
+                {Array.isArray(tags) && (
+                  <ul className="project-tags">
+                    {tags.map((tag) => (
+                      <li key={tag}>{tag}</li>
+                    ))}
+                  </ul>
+                )}
+                {(page || links.length > 0) && (
+                  <div className="project-links">
+                    {page && <Link to={page}>{t("read.more")}</Link>}
+                    {links.map((l) => (
+                      <a
+                        key={l.href}
+                        href={l.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {t(l.label)}
+                      </a>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </li>
+          );
+        })}
+      </ul>
+    </section>
   );
 }
 

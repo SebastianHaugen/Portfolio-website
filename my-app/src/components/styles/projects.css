@@ -1,100 +1,77 @@
-.projects-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  margin-bottom: 5rem;
-}
-
-.projects-container h2 {
-  margin-bottom: 40px;
+.project-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .project {
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+  gap: 4.8rem;
   align-items: center;
-  gap: 40px;
-  margin-bottom: 60px;
+  padding: 4rem 0;
+  border-bottom: 1px solid var(--surface);
 }
 
-.project:nth-child(even) {
-  flex-direction: row-reverse;
+.project:first-child {
+  padding-top: 0;
 }
 
-.project-content {
-  flex: 1;
+.project:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
 }
 
-.project-content img {
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+.project > img.contain {
+  object-fit: contain;
+  background: #fff;
 }
 
-.project-text {
-  flex: 1;
+.project > img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  background: var(--surface);
+  display: block;
 }
 
-span {
-  color: #d2042d;
-}
-
-span:hover {
-  text-decoration: underline;
-  cursor: pointer;
+.project-text h3 {
+  font-size: clamp(2.8rem, 3.4vw, 4rem);
+  font-weight: 700;
+  margin-bottom: 1.4rem;
 }
 
 .project-text p {
-  line-height: 1.6;
+  margin: 0 0 1.8rem;
+  max-width: 52ch;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem;
+}
+
+.project-tags li {
+  font-size: 1.4rem;
+  padding: 0.3rem 1rem;
+  border: 1px solid var(--accent-dim);
+  color: var(--accent-dim);
 }
 
 .project-links {
-  margin-top: 10px;
   display: flex;
-  gap: 10px;
-}
-
-.project-link {
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.project-link:hover {
-  scale: 1.1;
-}
-
-.link-logos {
-  width: 50px;
-  height: auto;
-  margin-right: 5px;
-}
-
-.read-more-link {
-  color: #0056b3;
-  cursor: pointer;
-  text-decoration: underline;
+  flex-wrap: wrap;
+  gap: 2.4rem;
   font-weight: 600;
 }
 
-.read-more-link:hover {
-  color: #003366;
-}
-
-/* Responsive adjustments for mobile */
 @media (max-width: 768px) {
   .project {
-    flex-direction: column;
-  }
-
-  .project:nth-child(even) {
-    flex-direction: column;
-  }
-
-  .project img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+    grid-template-columns: 1fr;
+    gap: 2.4rem;
   }
 }

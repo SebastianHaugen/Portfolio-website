@@ -1,0 +1,47 @@
+.timeline {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 18rem 1fr auto;
+  gap: 2.4rem;
+  align-items: baseline;
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--surface);
+}
+
+.timeline-item:last-child {
+  border-bottom: none;
+}
+
+.timeline-period {
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.timeline-title {
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 3vw, 3.2rem);
+  font-weight: 700;
+  color: #e4e5e6;
+  line-height: 1.1;
+}
+
+.timeline-place {
+  color: var(--accent);
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .timeline-item {
+    grid-template-columns: 1fr;
+    gap: 0.4rem;
+  }
+
+  .timeline-place {
+    text-align: left;
+  }
+}

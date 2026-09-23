@@ -1,0 +1,66 @@
+.sudoku {
+  margin: 0;
+  width: 100%;
+  max-width: 44rem;
+}
+
+.sudoku-grid {
+  box-sizing: border-box;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  aspect-ratio: 1 / 1;
+  border: 3px solid var(--text);
+  background: var(--surface);
+}
+
+.sudoku-cell {
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(1.6rem, 2.4vw, 2.6rem);
+  line-height: 1;
+  color: var(--muted);
+  border-right: 1px solid rgba(197, 198, 199, 0.18);
+  border-bottom: 1px solid rgba(197, 198, 199, 0.18);
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+.sudoku-cell:nth-child(9n + 3),
+.sudoku-cell:nth-child(9n + 6) {
+  border-right: 3px solid var(--text);
+}
+
+.sudoku-cell:nth-child(n + 19):nth-child(-n + 27),
+.sudoku-cell:nth-child(n + 46):nth-child(-n + 54) {
+  border-bottom: 3px solid var(--text);
+}
+
+.sudoku-cell.given {
+  color: var(--text);
+  font-weight: 800;
+}
+
+.sudoku-cell.filled {
+  color: var(--accent-dim);
+}
+
+.sudoku-cell.wrong {
+  color: var(--error);
+  background: rgba(255, 107, 107, 0.14);
+}
+
+.sudoku-cell.fixed {
+  color: var(--bg);
+  background: var(--accent);
+}
+
+.sudoku figcaption {
+  margin-top: 1.2rem;
+  font-size: 1.5rem;
+  color: var(--muted);
+  max-width: 44ch;
+}

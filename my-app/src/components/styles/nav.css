@@ -2,85 +2,78 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  background-color: rgba(11, 12, 16, 0.92);
+  backdrop-filter: blur(6px);
   position: sticky;
-  width: 100%;
   top: 0;
   z-index: 1000;
-  padding-right: 5px;
+  height: 8rem;
 }
 
 .logo {
   display: flex;
-  align-items: center;
+  align-items: baseline;
+  gap: 1.4rem;
   text-decoration: none;
   color: inherit;
 }
 
-.logo h1 {
-  margin-right: 10px;
+.logo-name {
+  font-family: var(--font-display);
+  font-size: 3.2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--accent);
 }
 
 .logo p {
   margin: 0;
-  text-align: center;
-}
-
-.logo h1:hover {
-  scale: 1.05;
-  transition: scale 0.2s ease in-out;
-  text-decoration: underline;
-  text-decoration-color: #d2042d;
+  font-size: 1.5rem;
+  color: var(--muted);
 }
 
 .menu ul {
   display: flex;
+  gap: 3rem;
   list-style: none;
   margin: 0;
   padding: 0;
-}
-
-.menu ul li {
-  margin-left: 20px;
 }
 
 .menu ul li button {
   background: none;
   border: none;
   font: inherit;
-  color: #333;
-  font-weight: bold;
+  font-size: 1.6rem;
+  color: var(--text);
   cursor: pointer;
-  padding: 0;
-  text-decoration: none;
+  padding: 0.4rem 0;
 }
 
 .menu ul li button:hover {
-  color: #d2042d;
-  text-decoration: underline;
+  color: var(--accent);
 }
 
 .hamburger {
   display: none;
+  color: var(--text);
 }
 
-/* Media query for smaller screens */
 @media (max-width: 768px) {
   .hamburger {
     display: flex;
-    flex-direction: column;
   }
 
   .menu {
     position: absolute;
-    top: 60px;
-    right: 0;
-    background-color: white;
-    width: 100%;
+    top: 8rem;
+    left: -2.4rem;
+    right: -2.4rem;
+    background-color: var(--bg);
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.4s ease-in-out;
-    border-top: 1px solid #ddd;
+    border-bottom: 1px solid var(--surface);
   }
 
   .menu.open {
@@ -90,15 +83,13 @@
   .menu ul {
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    gap: 0;
+    padding: 1rem 0 2rem;
   }
 
-  .menu ul li {
-    margin: 16px 0;
-  }
-
-  .logo > h1 {
+  .menu ul li button {
     font-size: 2rem;
+    padding: 1.2rem 0;
   }
 
   .nav-title {

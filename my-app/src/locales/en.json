@@ -1,46 +1,93 @@
 {
   "intro": {
-    "hello": "Hi!",
+    "hello": "Hi",
     "description1": "I'm Sebastian, ",
-    "description2": "a web developer passionate about creating modern, sustainable, accessible, and efficient websites. I enjoy working with JavaScript, React, SQL, and Python.",
-    "imageAlt": "Me, Sebastian Skrøvseth Haugen"
+    "description2": "a master's student in Applied AI with a background in web development. I like building things people actually use, from full-stack web apps to machine learning models. I mostly work with Python, PyTorch, TypeScript and React.",
+    "imageAlt": "Me, Sebastian Skrøvseth Haugen",
+    "lead": "I'm Sebastian, a master's student in Applied AI with a background in web development. I build everything from web apps to machine learning models.",
+    "cta": "See my projects",
+    "sudokuCaption": "An AI model that solves the Sudoku grid, spots its own mistakes and corrects them. The idea behind the research project SHREK-HRM carried out with 2 fellow students."
   },
-
   "nav": {
-    "title": "Web Developer",
+    "title": "Full-stack & AI Developer",
     "home": "Home",
     "about": "About",
     "projects": "Projects",
-    "contact": "Contact"
+    "contact": "Contact",
+    "experience": "Experience"
   },
-
   "projects": {
     "header": "Projects",
-
     "project1": {
       "title": "The SUPER Assessor",
-      "summary": "Developed as a part of the full-stack web development course in 2024, the project was developed with 2 students from my class. The application helps teachers create and evaluate assessment forms using a card-based game. Application is built using the MERN stack."
+      "summary": "Developed as a part of the full-stack web development course in 2024, the project was developed with 2 students from my class. The application helps teachers create and evaluate assessment forms using a card-based game. Application is built using the MERN stack.",
+      "short": "A card-based tool where teachers create and evaluate assessment schemes. Full-stack app built in a group of three.",
+      "tags": [
+        "MongoDB",
+        "Express",
+        "React",
+        "Node.js"
+      ],
+      "imageAlt": "SUPER Assessor shown on a laptop and a tablet"
     },
-
     "project2": {
       "title": "Travel Website with a Focus on Accessibility",
-      "summary": "For the course accessibility, usability, and ethics course, I built a travel-themed website that focuses on accessible and inclusive design. The goal was to build a website that users with various disabilities could navigate and interact with easily, following the WCAG guidelines (Web Content Accessibility Guidelines)."
+      "summary": "For the course accessibility, usability, and ethics course, I built a travel-themed website that focuses on accessible and inclusive design. The goal was to build a website that users with various disabilities could navigate and interact with easily, following the WCAG guidelines (Web Content Accessibility Guidelines).",
+      "short": "A travel website built to WCAG and tested with screen readers and keyboard navigation.",
+      "tags": [
+        "HTML",
+        "CSS",
+        "WCAG"
+      ],
+      "imageAlt": "The travel website shown on a laptop"
     },
-
     "project3": {
       "title": "E-Learning Platform for the Shared Model",
       "summary": "For the bachelor's project we developed an e-learning platform for the Shared Model. Me and 2 other students worked in collaboration with Helseinn and Helsefelleskapet Innlandet and the goal was to make training in the shared model in the healthcare and municipal sector in Innlandet more accessible and effective through user-friendly design, interactive modules, and research-based content.",
-      "link": "Shared Model Website"
-    }
+      "link": "Shared Model Website",
+      "short": "An e-learning platform that makes training in the Shared Model easier for the health and municipal sector in Innlandet. Bachelor's project with Helseinn.",
+      "tags": [
+        "Full-stack",
+        "UX",
+        "User testing"
+      ],
+      "imageAlt": "Illustration of the Shared Model from HelseInn"
+    },
+    "project4": {
+      "title": "SHREK-HRM: Self-Correcting Hierarchical Reasoning Models",
+      "summary": "A research project at OsloMet together with two fellow students. We extended Hierarchical Reasoning Models with self-correction mechanisms, such as error injection and stagnation-aware halting, and evaluated them on the Sudoku-Extreme and Maze-Hard benchmarks. The models were trained on an NVIDIA GH200 GPU on the Simula Research Laboratory cluster. I wrote most of the paper and worked on the code through pair programming.",
+      "imageAlt": "A maze with the solution path highlighted in cyan",
+      "short": "Reasoning models that detect and correct their own mistakes, tested on Sudoku and mazes. Research project at OsloMet, trained on Simula's GPU cluster.",
+      "tags": [
+        "Python",
+        "PyTorch",
+        "Research"
+      ]
+    },
+    "project5": {
+      "title": "3D Shape Classification",
+      "summary": "For the course 3D Computer Vision, I built and compared three classifiers on a subset of ShapeNetCore: a 3D CNN on voxels, a graph neural network on meshes with PyTorch3D, and PointNet on point clouds. The project compares how the different 3D representations affect accuracy and training cost.",
+      "imageAlt": "A chair represented as a 3D point cloud",
+      "short": "Three models that recognise 3D objects from voxels, meshes and point clouds, compared on ShapeNetCore.",
+      "tags": [
+        "PyTorch",
+        "PyTorch3D",
+        "PointNet"
+      ]
+    },
+    "github": "GitHub"
   },
-
   "about": {
     "header": "About",
-    "description1": "I am a developer who has studied web development at NTNU Gjøvik for the past 3 years. I will graduate with a bachelor's degree in june 2025.",
-    "description2": "I am 23 years old and come from Bødalen, a town outside Asker. Technology has been an interest of mine since I was young and I started studying web development in 2022. I have found that I enjoy backend development the most, especially working with APIs and databases. At the same time, I enjoy working with full-stack and find it exciting to see how everything fits together. I like solving challenges and building systems that are both efficient and user-friendly, and I like creating solutions that actually make a difference.",
-    "description3": "In my free time I enjoy working out and being social. I enjoy traveling and experiencing new cultures and i'm always looking for opportunities to develop myself."
+    "description1": "I have a bachelor's degree in web development from NTNU Gjøvik, and I'm now taking a master's in Applied AI at OsloMet, graduating in June 2027.",
+    "description2": "I come from Bødalen, a town outside Asker. Technology has been an interest of mine since I was young, and I started studying web development in 2022. During the bachelor's I found that I enjoyed backend work the most, especially APIs and databases, and that curiosity about what happens behind the interface led me to AI. In the master's I have worked with deep learning, 3D computer vision and reinforcement learning, which is the area I find most exciting right now. I like solving challenges and building solutions that actually make a difference, and I enjoy the combination of understanding the models and building something useful around them.",
+    "description3": "In my free time I enjoy working out and being social. I enjoy traveling and experiencing new cultures and i'm always looking for opportunities to develop myself.",
+    "short1": "I'm from Bødalen, I have a bachelor's in web development from NTNU and I'm now taking a master's in Applied AI at OsloMet. Reinforcement learning is what excites me most right now.",
+    "short2": "I like building things people actually use. In my free time I work out, spend time with friends and travel as often as I can.",
+    "alt1": "View from the top of Gaustatoppen",
+    "alt2": "Basilica of St. Ludmila in Prague",
+    "alt3": "Prague seen from a distance"
   },
-
   "contact": {
     "header": "Contact",
     "description": "If you want to contact me, you can send a message here:",
@@ -48,14 +95,13 @@
     "email": "Email:",
     "message": "Message:",
     "send": "Send",
-    "success": "Thank you! Your message has been sent"
+    "success": "Thank you! Your message has been sent",
+    "short": "Send me an email, or find me on LinkedIn and GitHub."
   },
-
   "read": {
     "more": "Read more",
     "less": "Read less"
   },
-
   "project1": {
     "header1": {
       "title": "Introduction",
@@ -82,7 +128,6 @@
       "p2": "We also emphasized backend functionality, including a well-structured REST API, security measures, and documentation via Swagger. For the frontend, we mainly used React but had requirements to reuse Web Components from earlier assignments now improved in structure and flexibility. The project was finalized with testing and quality assurance to ensure that all roles (visitor, teacher, and admin) could perform their tasks without errors. We worked closely as a team and clearly distributed responsibilities something that contributed to a successful delivery and better understanding of how to build modern web applications in practice."
     }
   },
-
   "project2": {
     "header1": {
       "title": "Introduction",
@@ -106,7 +151,6 @@
       ]
     }
   },
-
   "project3": {
     "header1": {
       "title": "Introduction",
@@ -126,5 +170,33 @@
       "p1": "The project is complete, the Shared Model learning platform has finished development, but the e-learning modules are still under development. The first e-learning module has been created and we have conducted user testing of the Shared Model learning platform with the target group. The testing has given us valuable insight into how users understand the content, navigate the platform, and experience the course structure. Based on the user testing we have fixed numerous issues.",
       "p2": "The feedback has been used to improve the Shared Model learning platform and we are documenting the process in our bachelor thesis report. The final project deadline was May 15, 2025."
     }
+  },
+  "experience": {
+    "header": "Experience",
+    "items": [
+      {
+        "period": "2025 – 2027",
+        "title": "MSc in Applied Artificial Intelligence",
+        "place": "OsloMet"
+      },
+      {
+        "period": "Summer 2026",
+        "title": "IT intern",
+        "place": "OBOS"
+      },
+      {
+        "period": "2022 – 2025",
+        "title": "BSc in Web Development",
+        "place": "NTNU Gjøvik"
+      },
+      {
+        "period": "2022 – today",
+        "title": "Part-time store associate",
+        "place": "Kiwi"
+      }
+    ]
+  },
+  "footer": {
+    "top": "Back to top"
   }
 }

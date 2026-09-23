@@ -1,48 +1,95 @@
 {
   "intro": {
-    "hello": "Hei!",
+    "hello": "Hei",
     "description1": "Jeg er Sebastian,",
-    "description2": "en webutvikler som er opptatt av å lage moderne, bærekraftige, tilgjengelige og effektive nettsider. Jeg liker å jobbe med JavaScript, React, SQL og Python.",
-    "imageAlt": "Meg, Sebastian Haugen"
+    "description2": "en masterstudent i anvendt kunstig intelligens med bakgrunn fra webutvikling. Jeg liker å bygge ting som faktisk blir brukt, fra fullstack-apper til maskinlæringsmodeller. Jeg jobber mest med Python, PyTorch, TypeScript og React.",
+    "imageAlt": "Meg, Sebastian Haugen",
+    "lead": "Jeg er Sebastian, masterstudent i anvendt KI med bakgrunn fra webutvikling. Jeg bygger alt fra webapper til maskinlæringsmodeller.",
+    "cta": "Se prosjektene",
+    "sudokuCaption": "En AI-modell som fyller ut rutenettet, oppdager egne feil og retter dem. Idéen bak forskningsprosjektet SHREK-HRM som blir gjort med 2 medstudenter."
   },
-
   "nav": {
-    "title": "Webutvikler",
+    "title": "Fullstack- og KI-utvikler",
     "home": "Hjem",
     "about": "Om",
     "projects": "Prosjekter",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "experience": "Erfaring"
   },
-
   "projects": {
     "header": "Prosjekter",
     "achievements": "Hva jeg oppnådde:",
     "whatIlearned": "Hva jeg lærte:",
-
     "project1": {
       "title": "SUPER Assessor",
-      "summary": "Utviklet som en del av emnet full-stack webutvikling. SUPER Assessor hjelper lærere med å lage og evaluere vurderingsskjemaer gjennom et kortbasert spill. Full-stack applikasjonen er bygget med MERN-stacken."
+      "summary": "Utviklet som en del av emnet full-stack webutvikling. SUPER Assessor hjelper lærere med å lage og evaluere vurderingsskjemaer gjennom et kortbasert spill. Full-stack applikasjonen er bygget med MERN-stacken.",
+      "short": "Et kortbasert verktøy der lærere lager og vurderer vurderingsskjemaer. Fullstack-app laget i gruppe på tre.",
+      "tags": [
+        "MongoDB",
+        "Express",
+        "React",
+        "Node.js"
+      ],
+      "imageAlt": "SUPER Assessor vist på en PC og et nettbrett"
     },
-
     "project2": {
       "title": "Reisenettsted med fokus på tilgjengelighet",
-      "summary": "For emnet tilgjengelighet, brukervennlighet og etikk utviklet jeg en reiseplattform med fokus på tilgjenglighet og inkluderende design. Målet var å sikre at brukere med ulike funksjonsnedsettelser kunne navigere og bruke siden uten problemer. Nettsiden var laget i tråd med WCAG-retningslinjene."
+      "summary": "For emnet tilgjengelighet, brukervennlighet og etikk utviklet jeg en reiseplattform med fokus på tilgjenglighet og inkluderende design. Målet var å sikre at brukere med ulike funksjonsnedsettelser kunne navigere og bruke siden uten problemer. Nettsiden var laget i tråd med WCAG-retningslinjene.",
+      "short": "Et reisenettsted bygget etter WCAG og testet med skjermlesere og tastaturnavigasjon.",
+      "tags": [
+        "HTML",
+        "CSS",
+        "WCAG"
+      ],
+      "imageAlt": "Reisenettstedet vist på en bærbar PC"
     },
-
     "project3": {
       "title": "E-læringsplattform for Fellesmodellen",
       "summary": "For bachelorprosjektet vårt utviklet jeg og 2 andre studenter en nettside for Fellesmodellen, med e-læringskurs for vært steg i modellen. Bachelorprosjektet var i samarbeid med HelseInn og Helsefellesskap Innlandet og målet var å gjøre opplæring i Fellesmodellen i helse og kommunesektoren mer tilgjengelig og effektivt gjennom brukervennlig design, interaktive moduler og forskningsbasert innhold.",
-      "link": "Fellesmodellen nettside"
-    }
+      "link": "Fellesmodellen nettside",
+      "short": "E-læringsplattform som gjør opplæring i Fellesmodellen enklere for helse- og kommunesektoren i Innlandet. Bachelorprosjekt med Helseinn.",
+      "tags": [
+        "Fullstack",
+        "UX",
+        "Brukertesting"
+      ],
+      "imageAlt": "Illustrasjon av Fellesmodellen fra HelseInn"
+    },
+    "project4": {
+      "title": "SHREK-HRM: Selvkorrigerende hierarkiske resonneringsmodeller",
+      "summary": "Et forskningsprosjekt ved OsloMet sammen med to medstudenter. Vi utvidet Hierarchical Reasoning Models med mekanismer for selvkorrigering, som feilinjeksjon og stagnasjonsbevisst stopp, og testet dem på Sudoku-Extreme og Maze-Hard. Modellene ble trent på en NVIDIA GH200 GPU på klyngen til Simula Research Laboratory. Jeg skrev mesteparten av rapporten og var med på koden gjennom parprogrammering.",
+      "imageAlt": "En labyrint med løsningsveien markert i cyan",
+      "short": "Resonneringsmodeller som oppdager og retter sine egne feil, testet på Sudoku og labyrinter. Forskningsprosjekt ved OsloMet, trent på Simula sin GPU-klynge.",
+      "tags": [
+        "Python",
+        "PyTorch",
+        "Forskning"
+      ]
+    },
+    "project5": {
+      "title": "Klassifisering av 3D-objekter",
+      "summary": "I emnet 3D Computer Vision bygde og sammenlignet jeg tre klassifiseringsmodeller på et utvalg fra ShapeNetCore: en 3D CNN på voxler, et grafnevralt nettverk på mesher med PyTorch3D, og PointNet på punktskyer. Prosjektet sammenligner hvordan de ulike 3D-representasjonene påvirker nøyaktighet og treningskostnad.",
+      "imageAlt": "En stol vist som en 3D-punktsky",
+      "short": "Tre modeller som gjenkjenner 3D-objekter fra voxler, mesher og punktskyer, sammenlignet på ShapeNetCore.",
+      "tags": [
+        "PyTorch",
+        "PyTorch3D",
+        "PointNet"
+      ]
+    },
+    "github": "GitHub"
   },
-
   "about": {
     "header": "Om",
-    "description1": "Jeg er en utvikler som har studert webutvikling ved NTNU Gjøvik de siste 3 årene. Jeg fullfører bachelorgraden min i juni 2025.",
-    "description2": "Jeg er 23 år gammel og kommer fra Bødalen, et tettsted utenfor Asker. Teknologi har vært en interesse for meg siden jeg var ung og jeg bestemte meg for å studere webutvikling i høsten 2022. Gjennom studiet har jeg funnet ut at jeg trives best med backend-utvikling, spesielt å jobbe med API-er og databaser. Samtidig liker jeg å jobbe med fullstack og synes det er spennende å se hvordan alt henger sammen. Jeg liker å løse utfordringer og bygge systemer som både er effektive og brukervennlige og jeg liker å skape løsninger som faktisk gjør en forskjell.",
-    "description3": "Jeg bruker fritiden min på trening, sosiale aktiviteter og reiser. Jeg elsker å oppleve nye kulturer og leter alltid etter nye muligheter for å utvikle meg selv."
+    "description1": "Jeg har en bachelor i webutvikling fra NTNU Gjøvik, og tar nå master i anvendt kunstig intelligens ved OsloMet, med ferdig grad i juni 2027.",
+    "description2": "Jeg kommer fra Bødalen, et tettsted utenfor Asker. Teknologi har vært en interesse for meg siden jeg var ung, og jeg begynte å studere webutvikling høsten 2022. Gjennom bacheloren fant jeg ut at jeg trivdes best med backend, spesielt API-er og databaser, og nysgjerrigheten på hva som skjer bak grensesnittet tok meg videre til KI. I masteren har jeg jobbet med dyp læring, 3D-datasyn og forsterkende læring, som er det jeg synes er mest spennende akkurat nå. Jeg liker å løse utfordringer og lage løsninger som faktisk gjør en forskjell, og trives med kombinasjonen av å forstå modellene og bygge noe nyttig rundt dem.",
+    "description3": "Jeg bruker fritiden min på trening, sosiale aktiviteter og reiser. Jeg elsker å oppleve nye kulturer og leter alltid etter nye muligheter for å utvikle meg selv.",
+    "short1": "Jeg kommer fra Bødalen, har bachelor i webutvikling fra NTNU og tar nå master i anvendt KI ved OsloMet. Forsterkende læring er det jeg synes er mest spennende akkurat nå.",
+    "short2": "Jeg liker å bygge ting som faktisk blir brukt. På fritiden trener jeg, er sosial og reiser så ofte jeg kan.",
+    "alt1": "Utsikt fra toppen av Gaustatoppen",
+    "alt2": "Basilica of St. Ludmila i Praha",
+    "alt3": "Praha sett fra avstand"
   },
-
   "contact": {
     "header": "Kontakt",
     "description": "Hvis du vil kontakte meg, kan du sende en melding her:",
@@ -50,14 +97,13 @@
     "email": "E-post:",
     "message": "Melding:",
     "send": "Send",
-    "success": "Takk! Meldingen din ble sendt"
+    "success": "Takk! Meldingen din ble sendt",
+    "short": "Send meg en e-post, eller finn meg på LinkedIn og GitHub."
   },
-
   "read": {
     "more": "Les mer",
     "less": "Les mindre"
   },
-
   "project1": {
     "header1": {
       "title": "Introduksjon",
@@ -84,7 +130,6 @@
       "p2": "Vi la også stor vekt på backend-funksjonalitet, inkludert et godt strukturert REST API, sikkerhetstiltak og dokumentasjon via Swagger. På frontend brukte vi hovedsakelig React, men hadde krav om å gjenbruke webkomponenter fra tidligere oppgaver, nå forbedret i struktur og fleksibilitet. Prosjektet ble avsluttet med testing og kvalitetssikring for å sikre at alle roller (gjest, lærer og admin) kunne utføre sine oppgaver uten feil. Vi samarbeidet tett som et team og fordelte ansvaret tydelig noe som bidro til en vellykket leveranse og bedre forståelse for hvordan man bygger moderne webapplikasjoner i praksis."
     }
   },
-
   "project2": {
     "header1": {
       "title": "Introduksjon",
@@ -108,7 +153,6 @@
       ]
     }
   },
-
   "project3": {
     "header1": {
       "title": "Introduksjon",
@@ -128,5 +172,33 @@
       "p1": "Prosjektet er fullført, og Fellesmodellens læringsplattform er ferdig utviklet, men e-læringsmodulene er fortsatt under utvikling. Den første modulen er laget, og vi har gjennomført brukertesting av plattformen med målgruppen. Testingen har gitt oss verdifull innsikt i hvordan brukerne forstår innholdet, navigerer på plattformen og opplever kursstrukturen. Basert på dette har vi rettet en rekke problemer.",
       "p2": "Tilbakemeldingene er brukt til å forbedre læringsplattformen, og vi har dokumentert hele prosessen i bacheloroppgaven vår. Den endelige fristen for prosjektet var 15. mai 2025."
     }
+  },
+  "experience": {
+    "header": "Erfaring",
+    "items": [
+      {
+        "period": "2025 – 2027",
+        "title": "Master i anvendt kunstig intelligens",
+        "place": "OsloMet"
+      },
+      {
+        "period": "Sommer 2026",
+        "title": "IT-praktikant",
+        "place": "OBOS"
+      },
+      {
+        "period": "2022 – 2025",
+        "title": "Bachelor i webutvikling",
+        "place": "NTNU Gjøvik"
+      },
+      {
+        "period": "2022 – i dag",
+        "title": "Butikkmedarbeider (deltid)",
+        "place": "Kiwi"
+      }
+    ]
+  },
+  "footer": {
+    "top": "Til toppen"
   }
 }

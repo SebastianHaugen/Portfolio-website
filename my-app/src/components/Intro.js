@@ -1,26 +1,27 @@
 import React from "react";
-import sebastian from "../assets/img/SebastianHaugen-min.webp";
 import { useTranslation } from "react-i18next";
+import SudokuSolver from "./SudokuSolver";
 import "./styles/intro.css";
 
 function Intro() {
-  // Using translation from the locales folder to get the text in the correct language
   const { t } = useTranslation();
 
+  const scrollToProjects = () => {
+    const section = document.querySelector("#main-content");
+    if (section) section.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
-    <div className="intro-container" id="top">
+    <section className="intro-container" id="top">
       <div className="intro-text">
         <h1 className="intro-header">{t("intro.hello")}</h1>
-        <p>
-          {t("intro.description1")}
-          <br></br>
-          {t("intro.description2")}
-        </p>
+        <p className="intro-lead">{t("intro.lead")}</p>
+        <button className="intro-button" onClick={scrollToProjects}>
+          {t("intro.cta")}
+        </button>
       </div>
-      <div className="intro-picture">
-        <img src={sebastian} alt={t("intro.imageAlt")} />
-      </div>
-    </div>
+      <SudokuSolver label={t("intro.sudokuCaption")} />
+    </section>
   );
 }
 

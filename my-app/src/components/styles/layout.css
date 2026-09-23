@@ -9,8 +9,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  background: #d2042d;
-  color: white;
+  background: var(--accent);
+  color: var(--bg);
   padding: 1rem 2rem;
   z-index: 9999;
   transform: translateY(-100%);

@@ -1,66 +1,63 @@
 .intro-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    min-height: calc(100vh - 10rem);
-}
-
-.intro-text {
-    max-width: 42ch;
-}
-
-.intro-text h2 {
-    margin: 0 0 10px 0;
-    font-size: 2rem;
-}
-
-.intro-text p {
-    font-size: 3rem;
-    line-height: 1.5;
-    font-weight: 500;
-}
-
-.intro-picture {
-    display: flex;
-    justify-content: end;
-}
-
-.intro-picture img {
-    width: 100%;
-    max-width: 500px;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 50%;
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 6rem;
+  min-height: calc(100vh - 8rem);
+  padding: 2rem 0 6rem;
+  box-sizing: border-box;
+  border-top: none;
 }
 
 .intro-header {
-    color: 	#D2042D;
+  font-size: clamp(12rem, 22vw, 26rem);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+  line-height: 0.82;
+  margin-bottom: 3.2rem;
 }
 
-/* For mobile screens */
-@media (max-width: 800px) {
-    .intro-container {
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-    }
+.intro-lead {
+  font-size: clamp(2rem, 2.2vw, 2.6rem);
+  line-height: 1.45;
+  max-width: 30ch;
+  margin: 0 0 4rem;
+  color: #e4e5e6;
+}
 
-    .intro-text {
-        max-width: 100%;
-    }
+.intro-button {
+  font: inherit;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: transparent;
+  border: 2px solid var(--accent);
+  padding: 1.4rem 2.6rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
 
-    .intro-text p {
-        font-size: 2.5rem;
-    }
+.intro-button:hover {
+  background: var(--accent);
+  color: var(--bg);
+}
 
-    .intro-picture {
-        margin: 0 auto;
-    }
+.intro-container .sudoku {
+  justify-self: end;
+}
 
-    .intro-picture img {
-        max-width: 300px;
-    }
+@media (max-width: 860px) {
+  .intro-container {
+    grid-template-columns: minmax(0, 1fr);
+    min-height: auto;
+    gap: 5rem;
+    padding-top: 3rem;
+  }
+
+  .intro-container .sudoku {
+    justify-self: start;
+  }
 }

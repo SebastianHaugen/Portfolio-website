@@ -1,65 +1,96 @@
+:root {
+  --bg: #0b0c10;
+  --surface: #1f2833;
+  --text: #c5c6c7;
+  --muted: #8b9199;
+  --accent: #66fcf1;
+  --accent-dim: #45a29e;
+  --error: #ff6b6b;
+  --font-display: "Big Shoulders Display", "Arial Narrow", sans-serif;
+  --font-body: "futura-pt", "futura", "Jost", "Helvetica Neue", Arial, sans-serif;
+}
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-  scroll-padding-top: 10rem;
+  scroll-padding-top: 9rem;
 }
 
 body {
-  font-family: "futura", sans-serif;
-  font-size: 2rem;
+  font-family: var(--font-body);
+  font-size: 1.9rem;
+  line-height: 1.6;
   padding: 0;
   margin: 0;
+  background: var(--bg);
+  color: var(--text);
 }
 
 .layout-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding-left: 10px;
-  padding-right: 10px;
-  line-height: 1.6;
+  padding: 0 2.4rem;
 }
 
+h1,
 h2,
 h3 {
-  color: #d2042d;
+  font-family: var(--font-display);
+  color: var(--accent);
+  line-height: 1;
+  margin: 0;
 }
 
-.project-github-link {
-  margin-top: 0.75rem;
+.section-title {
+  font-size: clamp(4.8rem, 8vw, 8rem);
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 4rem;
 }
 
-.github-icon {
-  width: 50px;
-  height: 50px;
-  transition: transform 0.2s ease, opacity 0.2s ease;
+section {
+  padding: 8rem 0;
+  border-top: 1px solid var(--surface);
 }
 
-.github-icon:hover {
-  transform: scale(1.1);
-  opacity: 1;
-  cursor: pointer;
+a {
+  color: var(--accent);
+  text-underline-offset: 0.3em;
+}
+
+a:hover {
+  color: #fff;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 @media (max-width: 768px) {
   body {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 
-  h2 {
-    font-size: 1.8rem;
-    font-weight: 800;
+  section {
+    padding: 5.6rem 0;
   }
 
-  h3 {
-    font-size: 1.6rem;
+  .section-title {
+    margin-bottom: 2.8rem;
   }
+}
 
-  p {
-    font-size: 1.6rem;
-    line-height: 1.4;
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
   }
-
-  li {
-    font-size: 1.6rem;
+  * {
+    transition: none !important;
   }
 }

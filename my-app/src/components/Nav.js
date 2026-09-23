@@ -62,7 +62,7 @@ function Nav() {
   return (
     <nav className="nav">
       <Link to="/" className="logo" aria-label={t("nav.home")}>
-        <h1>Sebastian</h1>
+        <span className="logo-name">Sebastian</span>
         <p className="nav-title">{t("nav.title")}</p>
       </Link>
 
@@ -90,6 +90,14 @@ function Nav() {
               aria-label={t("nav.projects")}
             >
               {t("nav.projects")}
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() => handleMenuItemClick("#experience")}
+              aria-label={t("nav.experience")}
+            >
+              {t("nav.experience")}
             </button>
           </li>
           <li>
