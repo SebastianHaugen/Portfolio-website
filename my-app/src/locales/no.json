@@ -6,7 +6,7 @@
     "imageAlt": "Meg, Sebastian Haugen",
     "lead": "Jeg er Sebastian, masterstudent i anvendt KI med bakgrunn fra webutvikling. Jeg bygger alt fra webapper til maskinlæringsmodeller.",
     "cta": "Se prosjektene",
-    "sudokuCaption": "En AI-modell som fyller ut rutenettet, oppdager egne feil og retter dem. Idéen bak forskningsprosjektet SHREK-HRM som blir gjort med 2 medstudenter."
+    "sudokuCaption": "En illustrasjon av idéen bak SHREK-HRM: en modell som fyller ut rutenettet, oppdager egne feil og retter dem. Forskningsprosjekt sammen med to medstudenter."
   },
   "nav": {
     "title": "Fullstack- og KI-utvikler",
@@ -47,11 +47,12 @@
       "title": "E-læringsplattform for Fellesmodellen",
       "summary": "For bachelorprosjektet vårt utviklet jeg og 2 andre studenter en nettside for Fellesmodellen, med e-læringskurs for vært steg i modellen. Bachelorprosjektet var i samarbeid med HelseInn og Helsefellesskap Innlandet og målet var å gjøre opplæring i Fellesmodellen i helse og kommunesektoren mer tilgjengelig og effektivt gjennom brukervennlig design, interaktive moduler og forskningsbasert innhold.",
       "link": "Fellesmodellen nettside",
-      "short": "E-læringsplattform som gjør opplæring i Fellesmodellen enklere for helse- og kommunesektoren i Innlandet. Bachelorprosjekt med Helseinn.",
+      "short": "E-læringsplattform som gjør opplæring i Fellesmodellen enklere for helse- og kommunesektoren i Innlandet. Vi intervjuet målgruppen, testet tre ulike prototyper med dem og bygget plattformen rundt det brukerne foretrakk. I stedet for ferdige verktøy som H5P laget vi vår egen kursbygger, som ga full kontroll over design og innhold. Bachelorprosjekt med Helseinn, laget i gruppe på tre.",
       "tags": [
         "Fullstack",
         "UX",
-        "Brukertesting"
+        "Brukertesting",
+        "Figma"
       ],
       "imageAlt": "Illustrasjon av Fellesmodellen fra HelseInn"
     },
@@ -103,75 +104,6 @@
   "read": {
     "more": "Les mer",
     "less": "Les mindre"
-  },
-  "project1": {
-    "header1": {
-      "title": "Introduksjon",
-      "p1": "I starten av prosjektet fikk vi i oppgave å lage en digital versjon av SUPER Assessor, et kortspill utviklet ved NTNU for å hjelpe undervisere med å designe nye vurderingsformer. Dette er den fysiske versjonen av spillet som vi skulle digitalisere",
-      "p2": "Målet var å bruke webkomponenter for å bygge gjenbrukbare kortkomponenter med støtte for datadeling, styling via egendefinerte CSS-variabler og interaksjon gjennom egendefinerte hendelser. Første del av oppgaven fokuserte på å lære React og API-er, mens den avsluttende oppgaven gikk ut på å bygge en fullstack-applikasjon med MERN-stacken (MongoDB, ExpressJS, React og NodeJS). Den siste oppgaven ble gjort i grupper, og jeg jobbet sammen med to andre webutviklingsstudenter. Vi fikk også tilgang til designfiler og et Excel-ark med kortdata som vi kunne bruke i prosjektet.",
-      "p3": "Jeg startet med å sette opp strukturen i prosjektet og eksperimenterte med hvordan HTML-attributter og JS-egenskaper kunne brukes til å generere kortene dynamisk. Jeg brukte designfilene og dataene fra Excel-arket til å lage en komponentstruktur som kunne vise og håndtere interaktive kort, inkludert bokmerke- og snu-funksjonalitet.",
-      "p4": "Dette er Excel-databasen vi brukte for å generere kortene dynamisk. Det var totalt 86 kort i databasen."
-    },
-    "header2": {
-      "title": "Design",
-      "p1": "Fullstack-prosjektet bygget videre på tidligere oppgaver vi hadde gjennom semesteret. Første del med webkomponenter og API-løsninger la grunnlaget, og vi fikk muligheten til å gjenbruke og forbedre mye av koden vi allerede hadde laget. For å planlegge hvordan vi skulle utvikle en komplett fullstack-applikasjon som gruppe, laget vi Figma-prototyper og diskuterte brukerflyt, komponentstruktur og designvalg. Dette ga oss en tydelig retning før vi gikk videre med implementeringen."
-    },
-    "header3": {
-      "title": "Implementering og endelige resultater",
-      "p1": "I siste del av prosjektet fokuserte vi på å videreutvikle og ferdigstille en fullversjon av SUPER Assessor v2.0 som en fullstack-applikasjon. Dette handlet ikke bare om å implementere de siste kravene, men også om å sikre at tidligere funksjonalitet var stabil, sikker og godt dokumentert.",
-      "listIntro": "Vi implementerte blant annet:",
-      "list": [
-        "Autentisering for ulike brukertyper (lærer, admin og gjest).",
-        "Spillflyt der lærere kan trekke kort fra ulike kortstokker og bygge vurderingsopplegg.",
-        "Mulighet for å lagre, evaluere og dele vurderingsopplegg.",
-        "PDF-generering med for- og bakside av kort, tilpasset kortstørrelse og klart for utskrift.",
-        "En utvidet favorittfunksjon ved bruk av localStorage for bokmerking. En forbedret brukeropplevelse og responsivt design."
-      ],
-      "p2": "Vi la også stor vekt på backend-funksjonalitet, inkludert et godt strukturert REST API, sikkerhetstiltak og dokumentasjon via Swagger. På frontend brukte vi hovedsakelig React, men hadde krav om å gjenbruke webkomponenter fra tidligere oppgaver, nå forbedret i struktur og fleksibilitet. Prosjektet ble avsluttet med testing og kvalitetssikring for å sikre at alle roller (gjest, lærer og admin) kunne utføre sine oppgaver uten feil. Vi samarbeidet tett som et team og fordelte ansvaret tydelig noe som bidro til en vellykket leveranse og bedre forståelse for hvordan man bygger moderne webapplikasjoner i praksis."
-    }
-  },
-  "project2": {
-    "header1": {
-      "title": "Introduksjon",
-      "p1": "Målet med dette prosjektet var å utvikle en tilgjengelig og responsiv reise-nettside for personer i alderen 18–35 år. Fokus lå på universell utforming og god brukeropplevelse for alle, uavhengig av funksjonsevne. Jeg startet med å analysere brukerbehov og gjennomførte en spørreundersøkelse med personer som bruker skjermleser."
-    },
-    "header2": {
-      "title": "Design og utvikling",
-      "p1": "For å sikre tilgjengelighet og brukervennlighet, startet jeg med å designe et enkelt og strukturert oppsett i Figma. Jeg tok hensyn til WCAG-retningslinjene, og testet tidlig med ulike hjelpemidler som skjermleser og tastaturnavigasjon.",
-      "p2": "Jeg la vekt på semantisk HTML, tydelige ARIA-labels, skip-to-main funksjon, og høy kontrast. Layouten er bevisst enkel og konsistent mellom sidene for å gjøre navigasjonen intuitiv. I tillegg ble det brukt media queries og relative enheter for å sikre god responsivitet."
-    },
-    "header3": {
-      "title": "Testing og resultater",
-      "p1": "I slutten av prosjektet fokuserte jeg på å teste og forbedre tilgjengeligheten. Jeg brukte blant annet WAVE-verktøyet og WebAIM Contrast Checker for fargekontrast, og testet med skjermlesere som Windows Narrator og ChromeVox. Feedback fra medstudenter førte til forbedringer i blant annet fokushåndtering og lenketekst.",
-      "p2": "Et konkret eksempel var å endre utydelige lenker som \"Trykk her\" til mer beskrivende varianter som \"Les om Paris\". Jeg la også til flere semantiske HTML-elementer og ARIA-attributter for å bedre skjermleseropplevelsen.",
-      "list": [
-        "Skjermlesertesting og iterasjoner",
-        "Closed captions og transkripsjoner for media",
-        "Tilgjengelige popup-vinduer og skjemaer",
-        "Tastaturnavigasjon uten feller",
-        "Responsivt design på alle skjermstørrelser"
-      ]
-    }
-  },
-  "project3": {
-    "header1": {
-      "title": "Introduksjon",
-      "p1": "Bachelorprosjektet startet i 2024 som en del av emnet fordypningsprosjekt. Vi samarbeidet med Helseinn om prosjektet 'Felles modell for tjenesteutvikling i Helsefellesskap Innlandet'. Jeg og 2 andre studenter begynte med innsikts- og forskningsdelen ved å gjennomføre en konkurrentanalyse av eksisterende e-læringsplattformer.",
-      "p2": "Prosjektet ble startet for å gjøre opplæringen i Fellesmodellen mer tilgjengelig for ansatte i helse- og kommunesektoren i Innlandet. Vi gjennomførte intervjuer med målgruppen for å få innsikt i utfordringene de møter når de bruker e-læringsplattformer. Målet var å forstå hvordan et e-læringskurs kunne bidra til bedre forståelse og implementering av Fellesmodellen i praksis.",
-      "p3": "Vi undersøkte litteratur og teorier knyttet til pedagogikk og motivasjon i læring. På bakgrunn av dette definerte vi tydelige mål for e-læringskurset, med fokus på brukervennlighet, tilpasningsdyktighet, effektiv læring og god brukeropplevelse."
-    },
-    "header2": {
-      "title": "Design og utvikling",
-      "p1": "Vi startet med å prototype e-læringskurset. Ved hjelp av Figma lagde vi tre ulike prototyper. Den første prototype var basert på tekstbasert læring, som i tradisjonell klasseromsundervisning. Den andre prototypene fokuserte på interaktiv læring, med quiz og dra-og-slipp-oppgaver. Den siste prototypen hadde fokus på lyd- og videobasert læring, der deltakeren ble presentert for korte videoer som forklarer innholdet. Vi testet alle prototypene med målgruppen for å finne ut hva de foretrakk, og brukte innsikten til å bygge det endelige kurset. Tilbakemeldingene ble brukt til å forbedre både design og funksjonalitet.",
-      "p2": "",
-      "p3": "Etter å ha ferdigstilt prototypene og forskningsspørsmålene fra intervjuene, måtte vi ta en beslutning om hvordan vi skulle utvikle kursene for Fellesmodellens læringsplattform. Vi vurderte populære løsninger som H5P og Open edX, som kunne redusert utviklingstiden og gjort det enklere å implementere kursmodulene. Etter grundige diskusjoner valgte vi å lage en egen kursbygger, fordi vi opplevde at de eksisterende løsningene hadde begrensninger og var vanskelige å tilpasse. Selv om dette krevde mer utviklingsarbeid, ga det oss full kontroll over designet og eierskap til systemet.",
-      "p4": "Skjermbilde av landingssiden som møter brukerne når de først åpner Fellesmodellens nettside."
-    },
-    "header3": {
-      "title": "Endelige resultater",
-      "p1": "Prosjektet er fullført, og Fellesmodellens læringsplattform er ferdig utviklet, men e-læringsmodulene er fortsatt under utvikling. Den første modulen er laget, og vi har gjennomført brukertesting av plattformen med målgruppen. Testingen har gitt oss verdifull innsikt i hvordan brukerne forstår innholdet, navigerer på plattformen og opplever kursstrukturen. Basert på dette har vi rettet en rekke problemer.",
-      "p2": "Tilbakemeldingene er brukt til å forbedre læringsplattformen, og vi har dokumentert hele prosessen i bacheloroppgaven vår. Den endelige fristen for prosjektet var 15. mai 2025."
-    }
   },
   "experience": {
     "header": "Erfaring",

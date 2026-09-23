@@ -6,7 +6,7 @@
     "imageAlt": "Me, Sebastian Skrøvseth Haugen",
     "lead": "I'm Sebastian, a master's student in Applied AI with a background in web development. I build everything from web apps to machine learning models.",
     "cta": "See my projects",
-    "sudokuCaption": "An AI model that solves the Sudoku grid, spots its own mistakes and corrects them. The idea behind the research project SHREK-HRM carried out with 2 fellow students."
+    "sudokuCaption": "An illustration of the idea behind SHREK-HRM: a model that fills in the grid, spots its own mistakes and corrects them. Research project with two fellow students."
   },
   "nav": {
     "title": "Full-stack & AI Developer",
@@ -45,11 +45,12 @@
       "title": "E-Learning Platform for the Shared Model",
       "summary": "For the bachelor's project we developed an e-learning platform for the Shared Model. Me and 2 other students worked in collaboration with Helseinn and Helsefelleskapet Innlandet and the goal was to make training in the shared model in the healthcare and municipal sector in Innlandet more accessible and effective through user-friendly design, interactive modules, and research-based content.",
       "link": "Shared Model Website",
-      "short": "An e-learning platform that makes training in the Shared Model easier for the health and municipal sector in Innlandet. Bachelor's project with Helseinn.",
+      "short": "An e-learning platform that makes training in the Shared Model easier for the health and municipal sector in Innlandet. We interviewed the target group, tested three different prototypes with them and built the platform around what users preferred. Instead of ready-made tools like H5P, we built our own course builder, giving us full control over design and content. Bachelor's project with Helseinn, built in a group of three.",
       "tags": [
         "Full-stack",
         "UX",
-        "User testing"
+        "User testing",
+        "Figma"
       ],
       "imageAlt": "Illustration of the Shared Model from HelseInn"
     },
@@ -101,75 +102,6 @@
   "read": {
     "more": "Read more",
     "less": "Read less"
-  },
-  "project1": {
-    "header1": {
-      "title": "Introduction",
-      "p1": "At the beginning of the project, we were tasked with creating a digital version of SUPER Assessor, a card game developed at NTNU to help educators design new forms of assessment. This is the physical version of the game that we will digitalize",
-      "p2": "The goal was to use web components to build reusable card components with support for data transfer, styling via custom properties, and interaction using custom events. The first part focused on learning React and APIs, while the final assignment, where we built a full-stack application using the MERN stack (MongoDB, ExpressJS, React, and NodeJS)  The final assignment was in groups and i worked with 2 other web development students. We also got access to design files and an Excel sheet containing card data that we could use in the project.",
-      "p3": "I started by setting up the structure of the project and experimenting with how HTML attributes and JS properties could be used to dynamically generate the cards. I used the design files and data from the Excel sheet to create a component structure that could display and handle interactive cards, including bookmarking and flip functionality.",
-      "p4": "This is the Excel database that we used to dynamically generate the cards. There were a total of 86 cards in the database."
-    },
-    "header2": {
-      "title": "Design",
-      "p1": "The full-stack project was built on previous assignments that we had throughout the semester. The first part with web components and API solutions formed the foundation, and we had the opportunity to reuse and improve much of the code we had already created. To plan how we would develop a complete full-stack application as a group, we created Figma prototypes and discussed user flow, component structure, and design choices. This gave us a clear direction before moving on with the implementation."
-    },
-    "header3": {
-      "title": "Implementation and final results",
-      "p1": "In the final part of the project, we focused on further developing and completing a full version of SUPER Assessor v2.0 as a full-stack application. This was not only about implementing the final requirements, but also about ensuring that earlier functionality was stable, secure, and well-documented.",
-      "listIntro": "We implemented, among other things:",
-      "list": [
-        "Authentication for different user types (teacher, admin, and visitor).",
-        "Game flow where teachers can draw cards from different decks and build assessment schemes.",
-        "Ability to save, evaluate, and share assessment schemes.",
-        "PDF generation with front and back of cards, adjusted to card size and ready for print.",
-        "An extended favorites feature using localStorage for bookmarking. An improved user experience and responsive design."
-      ],
-      "p2": "We also emphasized backend functionality, including a well-structured REST API, security measures, and documentation via Swagger. For the frontend, we mainly used React but had requirements to reuse Web Components from earlier assignments now improved in structure and flexibility. The project was finalized with testing and quality assurance to ensure that all roles (visitor, teacher, and admin) could perform their tasks without errors. We worked closely as a team and clearly distributed responsibilities something that contributed to a successful delivery and better understanding of how to build modern web applications in practice."
-    }
-  },
-  "project2": {
-    "header1": {
-      "title": "Introduction",
-      "p1": "The goal of this project was to develop an accessible and responsive travel website for people aged 18–35. The focus was on universal design and a good user experience for everyone, regardless of functional ability. I began by analyzing user needs and conducted a small survey with people who use screen readers."
-    },
-    "header2": {
-      "title": "Design and development",
-      "p1": "To ensure accessibility and usability, I started by designing a simple and structured layout in Figma. I followed the WCAG guidelines and conducted early testing using various assistive technologies such as screen readers and keyboard navigation.",
-      "p2": "I emphasized semantic HTML, clear ARIA labels, a skip-to-main function, and high contrast. The layout was intentionally simple and consistent across pages to make navigation intuitive. In addition, media queries and relative units were used to ensure good responsiveness."
-    },
-    "header3": {
-      "title": "Testing and results",
-      "p1": "The focus was on testing the website and improving the accessibility. I used tools like the WAVE evaluation tool and WebAIM Contrast Checker for color contrast, and tested with screen readers like Windows Narrator and ChromeVox. Feedback from fellow students led to improvements in focus handling and link descriptions.",
-      "p2": "A concrete example was changing unclear links like \"Click here\" to more descriptive alternatives such as \"Read about Paris.\" I also added more semantic HTML elements and ARIA attributes to enhance the screen reader experience.",
-      "list": [
-        "Screen reader testing and iterations",
-        "Closed captions and transcripts for media",
-        "Accessible popup windows and forms",
-        "Keyboard navigation without traps",
-        "Responsive design on all screen sizes"
-      ]
-    }
-  },
-  "project3": {
-    "header1": {
-      "title": "Introduction",
-      "p1": "The bachelor's project began in 2024 as part of the course In-depth project. We worked together with Helseinn for the project 'Felles modell for tjenesteutvikling i Helsefellesskap Innlandet'. Me and 2 other students started working on the insight and research part through a competitor analysis of existing e-learning platforms.",
-      "p2": "The project was started to make training in the Shared Model more accessible for employees in healthcare and municipal sectors in the Innlandet region. We conducted interviews with the target group to learn about the challenges they face when using e-learning platforms. The aim was to understand how an e-learning course could improve understanding and the implementation of the Shared Model in practice.",
-      "p3": "We looked at literature and theories related to the pedagogical part of learning and motivation. Based on this, we defined clear goals for the e-learning course, with a focus on usability, adaptability, effective learning, and user-friendliness."
-    },
-    "header2": {
-      "title": "Design and development",
-      "p1": "We started prototyping the e-learning course. We used Figma to create 3 different prototype of the course. 1 prototype was focused on text-based learning, which is traditional classroom learning. The 2 prototypes focuses on interactive learning, with quizzes and drag-and-drop questions. The last prototype focuses on audio and video-based learning, where the participant is presented with a short video explaining the content. We tested all the prototypes with the target group to find out which they preferred and used the insight to build the final course.  The feedback was used to improve the design and functionality of the course.",
-      "p2": "",
-      "p3": "After prototyping the course and finishing the research questions after interviews with the target group. We had to make a decision on how we should create the courses for the Shared Model learning platform. We could use existing solutions that are very popular such as H5P or open eDX, this would reduce development time and make it easier to implement the course modules. We spent some time discussing it, but decided on creating a custom course builder because we found the existing solutions lacking and it was hard to customize it to our liking. Creating a custom course builder required extra development, but it gives us full control over the design and means we have complete ownership of the system.",
-      "p4": "Screenshot of the landing page that greets users when they first access the Shared Model's page."
-    },
-    "header3": {
-      "title": "Final results",
-      "p1": "The project is complete, the Shared Model learning platform has finished development, but the e-learning modules are still under development. The first e-learning module has been created and we have conducted user testing of the Shared Model learning platform with the target group. The testing has given us valuable insight into how users understand the content, navigate the platform, and experience the course structure. Based on the user testing we have fixed numerous issues.",
-      "p2": "The feedback has been used to improve the Shared Model learning platform and we are documenting the process in our bachelor thesis report. The final project deadline was May 15, 2025."
-    }
   },
   "experience": {
     "header": "Experience",
